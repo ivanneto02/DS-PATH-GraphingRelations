@@ -1,4 +1,4 @@
-def send_queries(queries=[], connection=None):
+def send_relations_queries(queries=[], connection=None):
     # No queries have been passed
     if len(queries) == 0:
         return []
@@ -21,5 +21,5 @@ def send_queries(queries=[], connection=None):
     return results
 
 if __name__ == "__main__":
-    print("Running send_queries module of RXNormVisualize package.")
-    results = send_queries([])
+    print("Running send_relations_queries module of RXNormVisualize package.")
+    results = send_relations_queries([])
