@@ -1,0 +1,19 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	82	[label="C2356604
+menthol 5.4 MG [Cepacol Sore Throat from Post Nasal Drip]"];
+	820	[label="C1577166
+menthol 5.4 MG"];
+	82 -> 820	[label=has_tradename,
+		minlen=1];
+	821	[label="C2356606
+Cepacol Sore Throat from Post Nasal Drip Cherry, mucous membrane lozenge"];
+	82 -> 821	[label=consists_of,
+		minlen=2];
+	822	[label="C2356603
+Cepacol Sore Throat from Post Nasal Drip"];
+	82 -> 822	[label=ingredient_of,
+		minlen=3];
+}

@@ -1,0 +1,27 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	42	[label="C2356158
+sulfacetamide / sulfur Topical Cream [Topisulf]"];
+	420	[label="C1253024
+sulfacetamide / sulfur Topical Cream"];
+	42 -> 420	[label=has_tradename,
+		minlen=1];
+	421	[label="C0991551
+Topical Cream"];
+	42 -> 421	[label=dose_form_of,
+		minlen=2];
+	422	[label="C2356067
+Topisulf"];
+	42 -> 422	[label=ingredient_of,
+		minlen=3];
+	423	[label="C2356159
+Topisulf, 10%-5% topical cream"];
+	42 -> 423	[label=isa,
+		minlen=4];
+	424	[label="C3231920
+Topisulf Topical Product"];
+	42 -> 424	[label=inverse_isa,
+		minlen=5];
+}

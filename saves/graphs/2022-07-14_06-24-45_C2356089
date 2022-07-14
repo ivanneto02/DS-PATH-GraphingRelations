@@ -1,0 +1,19 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	23	[label="C2356089
+menthol 5 MG [Halls]"];
+	230	[label="C0992572
+menthol 5 MG"];
+	23 -> 230	[label=has_tradename,
+		minlen=1];
+	231	[label="C2356091
+Halls Mountain Menthol, mucous membrane lozenge"];
+	23 -> 231	[label=consists_of,
+		minlen=2];
+	232	[label="C2356088
+Halls"];
+	23 -> 232	[label=ingredient_of,
+		minlen=3];
+}

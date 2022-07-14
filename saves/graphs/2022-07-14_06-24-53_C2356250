@@ -1,0 +1,27 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	51	[label="C2356250
+insulin glulisine, human Injectable Solution [Apidra]"];
+	510	[label="C1577147
+insulin glulisine, human Injectable Solution"];
+	51 -> 510	[label=has_tradename,
+		minlen=1];
+	511	[label="C2356251
+Apidra 100unit/ml Solution for Injection"];
+	51 -> 511	[label=isa,
+		minlen=2];
+	512	[label="C0991511
+Injectable Solution"];
+	51 -> 512	[label=dose_form_of,
+		minlen=3];
+	513	[label="C1654827
+Apidra"];
+	51 -> 513	[label=ingredient_of,
+		minlen=4];
+	514	[label="C3222730
+Apidra Injectable Product"];
+	51 -> 514	[label=inverse_isa,
+		minlen=5];
+}

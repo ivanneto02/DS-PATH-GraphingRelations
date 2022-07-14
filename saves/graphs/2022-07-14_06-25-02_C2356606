@@ -1,0 +1,55 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	84	[label="C2356606
+Cepacol Sore Throat from Post Nasal Drip Cherry, mucous membrane lozenge"];
+	840	[label="C1572456
+MENTHOL 5.4MG LOZENGE"];
+	84 -> 840	[label=has_tradename,
+		minlen=1];
+	841	[label="C2356605
+menthol Oral Lozenge [Cepacol Sore Throat from Post Nasal Drip]"];
+	84 -> 841	[label=inverse_isa,
+		minlen=2];
+	842	[label="C1577166
+menthol 5.4 MG"];
+	84 -> 842	[label=constitutes,
+		minlen=3];
+	843	[label="C2356604
+menthol 5.4 MG [Cepacol Sore Throat from Post Nasal Drip]"];
+	84 -> 843	[label=constitutes,
+		minlen=4];
+	844	[label="C0991564
+Lozenge Dosage Form"];
+	84 -> 844	[label=dose_form_of,
+		minlen=5];
+	845	[label="C2356603
+Cepacol Sore Throat from Post Nasal Drip"];
+	84 -> 845	[label=ingredient_of,
+		minlen=6];
+	846	[label="C0025368
+Menthol"];
+	84 -> 846	[label=ingredient_of,
+		minlen=7];
+	847	[label="C1649643
+Cepacol Sore Throat from Post Nasal Drip Cherry"];
+	84 -> 847	[label=ingredient_of,
+		minlen=8];
+	848	[label="C3221016
+Cepacol Sore Throat from Post Nasal Drip Oral Product"];
+	84 -> 848	[label=inverse_isa,
+		minlen=9];
+	849	[label="C3467274
+Cepacol Sore Throat from Post Nasal Drip Lozenge Product"];
+	84 -> 849	[label=inverse_isa,
+		minlen=10];
+	8410	[label="C2356603
+Cepacol Sore Throat from Post Nasal Drip"];
+	84 -> 8410	[label=ingredient_of,
+		minlen=1];
+	8411	[label="C0025368
+Menthol"];
+	84 -> 8411	[label=ingredient_of,
+		minlen=2];
+}

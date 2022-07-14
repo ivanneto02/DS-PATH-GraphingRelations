@@ -1,0 +1,186 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	71	[label="C0710716
+M-M-R II, subcutaneous powder for injection"];
+	710	[label="C0721476
+M-M-R II"];
+	71 -> 710	[label=ingredient_of,
+		minlen=1];
+	711	[label="C0026782
+Mumps Vaccine"];
+	71 -> 711	[label=ingredient_of,
+		minlen=2];
+	712	[label="C0025010
+Measles Vaccine"];
+	71 -> 712	[label=ingredient_of,
+		minlen=3];
+	713	[label="C0035923
+Rubella vaccines"];
+	71 -> 713	[label=ingredient_of,
+		minlen=4];
+	714	[label="C2356371
+Measles Virus Vaccine, Live/Mumps Virus Vaccine, Live/Rubella Virus Vaccine, Live Subcutaneous Powder for Solution"];
+	71 -> 714	[label=has_tradename,
+		minlen=5];
+	715	[label="C2242043
+rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/ML"];
+	71 -> 715	[label=constitutes,
+		minlen=6];
+	716	[label="C2356368
+measles virus vaccine live, Enders' attenuated Edmonston strain 2000 UNT/ML"];
+	71 -> 716	[label=constitutes,
+		minlen=7];
+	717	[label="C2356369
+mumps virus vaccine live, Jeryl Lynn strain 25000 UNT/ML"];
+	71 -> 717	[label=constitutes,
+		minlen=8];
+	718	[label="C2356372
+measles virus vaccine live, Enders' attenuated Edmonston strain 2000 UNT/ML / mumps virus vaccine live, Jeryl Lynn strain \
+25000 UNT/ML / rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/ML [M-M-R II]"];
+	71 -> 718	[label=constitutes,
+		minlen=9];
+	719	[label="C0721476
+M-M-R II"];
+	71 -> 719	[label=ingredient_of,
+		minlen=10];
+	7110	[label="C3238151
+M-M-R II Injectable Product"];
+	71 -> 7110	[label=inverse_isa,
+		minlen=1];
+	7111	[label="C0037494
+Salt"];
+	71 -> 7111	[label=inactive_ingredient_of,
+		minlen=2];
+	7112	[label="C0027603
+Neomycin"];
+	71 -> 7112	[label=inactive_ingredient_of,
+		minlen=3];
+	7113	[label="C2242042
+RUBELLA VIRUS STRAIN WISTAR RA 27/3 LIVE ANTIGEN"];
+	71 -> 7113	[label=active_ingredient_of,
+		minlen=4];
+	7114	[label="C0304925
+Human serum albumin preparation"];
+	71 -> 7114	[label=inactive_ingredient_of,
+		minlen=5];
+	7115	[label="C0074757
+sodium phosphate"];
+	71 -> 7115	[label=inactive_ingredient_of,
+		minlen=6];
+	7116	[label="C0038636
+Sucrose"];
+	71 -> 7116	[label=inactive_ingredient_of,
+		minlen=7];
+	7117	[label="C2356367
+MEASLES VIRUS STRAIN ENDERS' ATTENUATED EDMONSTON LIVE ANTIGEN"];
+	71 -> 7117	[label=active_moiety_of,
+		minlen=8];
+	7118	[label="C0036774
+Albumin, Bovine Serum"];
+	71 -> 7118	[label=inactive_ingredient_of,
+		minlen=9];
+	7119	[label="C2344347
+MUMPS VIRUS STRAIN B LEVEL JERYL LYNN LIVE ANTIGEN"];
+	71 -> 7119	[label=active_moiety_of,
+		minlen=10];
+	7120	[label="C2344347
+MUMPS VIRUS STRAIN B LEVEL JERYL LYNN LIVE ANTIGEN"];
+	71 -> 7120	[label=active_ingredient_of,
+		minlen=1];
+	7121	[label="C0037688
+Sorbitol"];
+	71 -> 7121	[label=inactive_ingredient_of,
+		minlen=2];
+	7122	[label="C2242042
+RUBELLA VIRUS STRAIN WISTAR RA 27/3 LIVE ANTIGEN"];
+	71 -> 7122	[label=active_moiety_of,
+		minlen=3];
+	7123	[label="C0017237
+Gelatin"];
+	71 -> 7123	[label=inactive_ingredient_of,
+		minlen=4];
+	7124	[label="C2356367
+MEASLES VIRUS STRAIN ENDERS' ATTENUATED EDMONSTON LIVE ANTIGEN"];
+	71 -> 7124	[label=active_ingredient_of,
+		minlen=5];
+	7125	[label="C4033672
+measles virus vaccine live, Enders' attenuated Edmonston strain 2000 UNT/ML / mumps virus vaccine live, Jeryl Lynn strain \
+25000 UNT/ML / rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/ML Injection [M-M-R II]"];
+	71 -> 7125	[label=has_quantified_form,
+		minlen=6];
+	7126	[label="C4033814
+measles virus vaccine live, Enders' attenuated Edmonston strain / mumps virus vaccine live, Jeryl Lynn strain / rubella \
+virus vaccine live (Wistar RA 27-3 strain) Injection [M-M-R II]"];
+	71 -> 7126	[label=inverse_isa,
+		minlen=7];
+	7127	[label="C1272883
+Injectable Dosage Form"];
+	71 -> 7127	[label=dose_form_of,
+		minlen=8];
+	7128	[label="C0017237
+Gelatin"];
+	71 -> 7128	[label=inactive_ingredient_of,
+		minlen=9];
+	7129	[label="C0065828
+Measles, mumps and rubella vaccine"];
+	71 -> 7129	[label=mapped_to,
+		minlen=10];
+	7130	[label="C2344347
+MUMPS VIRUS STRAIN B LEVEL JERYL LYNN LIVE ANTIGEN"];
+	71 -> 7130	[label=active_ingredient_of,
+		minlen=1];
+	7131	[label="C0074757
+sodium phosphate"];
+	71 -> 7131	[label=inactive_ingredient_of,
+		minlen=2];
+	7132	[label="C0037688
+Sorbitol"];
+	71 -> 7132	[label=inactive_ingredient_of,
+		minlen=3];
+	7133	[label="C0038636
+Sucrose"];
+	71 -> 7133	[label=inactive_ingredient_of,
+		minlen=4];
+	7134	[label="C2344347
+MUMPS VIRUS STRAIN B LEVEL JERYL LYNN LIVE ANTIGEN"];
+	71 -> 7134	[label=active_moiety_of,
+		minlen=5];
+	7135	[label="C2242042
+RUBELLA VIRUS STRAIN WISTAR RA 27/3 LIVE ANTIGEN"];
+	71 -> 7135	[label=active_ingredient_of,
+		minlen=6];
+	7136	[label="C2356367
+MEASLES VIRUS STRAIN ENDERS' ATTENUATED EDMONSTON LIVE ANTIGEN"];
+	71 -> 7136	[label=active_moiety_of,
+		minlen=7];
+	7137	[label="C0037494
+Salt"];
+	71 -> 7137	[label=inactive_ingredient_of,
+		minlen=8];
+	7138	[label="C2356367
+MEASLES VIRUS STRAIN ENDERS' ATTENUATED EDMONSTON LIVE ANTIGEN"];
+	71 -> 7138	[label=active_ingredient_of,
+		minlen=9];
+	7139	[label="C0017237
+Gelatin"];
+	71 -> 7139	[label=inactive_ingredient_of,
+		minlen=10];
+	7140	[label="C0036774
+Albumin, Bovine Serum"];
+	71 -> 7140	[label=inactive_ingredient_of,
+		minlen=1];
+	7141	[label="C0027603
+Neomycin"];
+	71 -> 7141	[label=inactive_ingredient_of,
+		minlen=2];
+	7142	[label="C2242042
+RUBELLA VIRUS STRAIN WISTAR RA 27/3 LIVE ANTIGEN"];
+	71 -> 7142	[label=active_moiety_of,
+		minlen=3];
+	7143	[label="C0304925
+Human serum albumin preparation"];
+	71 -> 7143	[label=inactive_ingredient_of,
+		minlen=4];
+}

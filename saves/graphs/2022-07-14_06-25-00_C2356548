@@ -1,0 +1,43 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	76	[label="C2356548
+difluprednate 0.5 MG/ML Ophthalmic Suspension [Durezol]"];
+	760	[label="C2356545
+difluprednate ophthalmic 0.05% ophthalmic emulsion"];
+	76 -> 760	[label=has_tradename,
+		minlen=1];
+	761	[label="C2356547
+difluprednate Ophthalmic Suspension [Durezol]"];
+	76 -> 761	[label=inverse_isa,
+		minlen=2];
+	762	[label="C2356038
+difluprednate 0.5 MG/ML"];
+	76 -> 762	[label=constitutes,
+		minlen=3];
+	763	[label="C2356546
+difluprednate 0.5 MG/ML [Durezol]"];
+	76 -> 763	[label=constitutes,
+		minlen=4];
+	764	[label="C0991532
+Ophthalmic Suspension"];
+	76 -> 764	[label=dose_form_of,
+		minlen=5];
+	765	[label="C2356029
+Durezol"];
+	76 -> 765	[label=ingredient_of,
+		minlen=6];
+	766	[label="C2356029
+Durezol"];
+	76 -> 766	[label=ingredient_of,
+		minlen=7];
+	767	[label="C0058004
+6 alpha-9-difluoroprednisolone 21-acetate 17-butyrate"];
+	76 -> 767	[label=ingredient_of,
+		minlen=8];
+	768	[label="C3223093
+Durezol Ophthalmic Product"];
+	76 -> 768	[label=inverse_isa,
+		minlen=9];
+}

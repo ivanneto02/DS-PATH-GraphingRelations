@@ -1,0 +1,23 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	63	[label="C2356294
+phentermine hydrochloride 37.5 MG [Adipex-P]"];
+	630	[label="C2356293
+phentermine hydrochloride 37.5 MG"];
+	63 -> 630	[label=has_tradename,
+		minlen=1];
+	631	[label="C1329481
+Adipex P 37.5mg Capsule"];
+	63 -> 631	[label=consists_of,
+		minlen=2];
+	632	[label="C1329300
+Adipex P 37.5mg Tablet"];
+	63 -> 632	[label=consists_of,
+		minlen=3];
+	633	[label="C0001520
+Adipex-P"];
+	63 -> 633	[label=ingredient_of,
+		minlen=4];
+}

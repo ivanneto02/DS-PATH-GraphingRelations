@@ -1,0 +1,19 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	74	[label="C2356546
+difluprednate 0.5 MG/ML [Durezol]"];
+	740	[label="C2356038
+difluprednate 0.5 MG/ML"];
+	74 -> 740	[label=has_tradename,
+		minlen=1];
+	741	[label="C2356548
+difluprednate 0.5 MG/ML Ophthalmic Suspension [Durezol]"];
+	74 -> 741	[label=consists_of,
+		minlen=2];
+	742	[label="C2356029
+Durezol"];
+	74 -> 742	[label=ingredient_of,
+		minlen=3];
+}

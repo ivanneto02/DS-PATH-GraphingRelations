@@ -1,0 +1,19 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	55	[label="C2356282
+FLUoxetine 15 MG [Sarafem]"];
+	550	[label="C2356280
+FLUoxetine 15 MG"];
+	55 -> 550	[label=has_tradename,
+		minlen=1];
+	551	[label="C2356283
+Sarafem 15 MG Oral Tablet"];
+	55 -> 551	[label=consists_of,
+		minlen=2];
+	552	[label="C1692877
+Sarafem"];
+	55 -> 552	[label=ingredient_of,
+		minlen=3];
+}

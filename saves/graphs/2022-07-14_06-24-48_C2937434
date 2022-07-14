@@ -1,0 +1,44 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	32	[label="C2937434
+calcium ascorbate 60 MG / calcium threonate 0.8 MG / ferrous asparto glycinate 50 MG / ferrous fumarate 101 MG / folic \
+acid 1 MG / succinic acid 50 MG / vitamin B12 0.01 MG [Multigen Plus]"];
+	320	[label="C0985208
+vitamin B12 0.01 MG"];
+	32 -> 320	[label=has_tradename,
+		minlen=1];
+	321	[label="C2355998
+calcium ascorbate 60 MG"];
+	32 -> 321	[label=has_tradename,
+		minlen=2];
+	322	[label="C2355999
+calcium threonate 0.8 MG"];
+	32 -> 322	[label=has_tradename,
+		minlen=3];
+	323	[label="C2356000
+ferrous asparto glycinate 50 MG"];
+	32 -> 323	[label=has_tradename,
+		minlen=4];
+	324	[label="C2356001
+ferrous fumarate 101 MG"];
+	32 -> 324	[label=has_tradename,
+		minlen=5];
+	325	[label="C2356002
+succinic acid 50 MG"];
+	32 -> 325	[label=has_tradename,
+		minlen=6];
+	326	[label="C2356109
+Multigen Plus, Vitamin B Complex with C, Folic Acid and Iron oral tablet"];
+	32 -> 326	[label=consists_of,
+		minlen=7];
+	327	[label="C2356047
+Multigen Plus"];
+	32 -> 327	[label=ingredient_of,
+		minlen=8];
+	328	[label="C0986175
+folic acid 1 MG"];
+	32 -> 328	[label=has_tradename,
+		minlen=9];
+}

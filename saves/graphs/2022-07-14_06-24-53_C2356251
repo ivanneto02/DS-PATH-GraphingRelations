@@ -1,0 +1,71 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	52	[label="C2356251
+Apidra 100unit/ml Solution for Injection"];
+	520	[label="C1445779
+INSULIN,GLULISINE,HUMAN 100 UNIT/ML INJ"];
+	52 -> 520	[label=has_tradename,
+		minlen=1];
+	521	[label="C2356250
+insulin glulisine, human Injectable Solution [Apidra]"];
+	52 -> 521	[label=inverse_isa,
+		minlen=2];
+	522	[label="C1577146
+insulin glulisine, human 100 UNT/ML"];
+	52 -> 522	[label=constitutes,
+		minlen=3];
+	523	[label="C2356249
+insulin glulisine, human 100 UNT/ML [Apidra]"];
+	52 -> 523	[label=constitutes,
+		minlen=4];
+	524	[label="C0991511
+Injectable Solution"];
+	52 -> 524	[label=dose_form_of,
+		minlen=5];
+	525	[label="C1654827
+Apidra"];
+	52 -> 525	[label=ingredient_of,
+		minlen=6];
+	526	[label="C3222730
+Apidra Injectable Product"];
+	52 -> 526	[label=inverse_isa,
+		minlen=7];
+	527	[label="C1313386
+Insulin Glulisine"];
+	52 -> 527	[label=ingredient_of,
+		minlen=8];
+	528	[label="C1654827
+Apidra"];
+	52 -> 528	[label=ingredient_of,
+		minlen=9];
+	529	[label="C1313386
+Insulin Glulisine"];
+	52 -> 529	[label=active_moiety_of,
+		minlen=10];
+	5210	[label="C0043047
+Water"];
+	52 -> 5210	[label=inactive_ingredient_of,
+		minlen=1];
+	5211	[label="C1313386
+Insulin Glulisine"];
+	52 -> 5211	[label=active_ingredient_of,
+		minlen=2];
+	5212	[label="C0041175
+Tromethamine"];
+	52 -> 5212	[label=inactive_ingredient_of,
+		minlen=3];
+	5213	[label="C0032600
+Polyethylene glycol 2000 Sorbitan Laurate"];
+	52 -> 5213	[label=inactive_ingredient_of,
+		minlen=4];
+	5214	[label="C0037494
+Salt"];
+	52 -> 5214	[label=inactive_ingredient_of,
+		minlen=5];
+	5215	[label="C0047317
+3-cresol"];
+	52 -> 5215	[label=inactive_ingredient_of,
+		minlen=6];
+}

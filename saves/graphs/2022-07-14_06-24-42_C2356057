@@ -1,0 +1,31 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	15	[label="C2356057
+Remeven"];
+	150	[label="C2356138
+Remeven 500 MG/ML Topical Cream"];
+	15 -> 150	[label=has_ingredient,
+		minlen=1];
+	151	[label="C0041942
+Carbamide"];
+	15 -> 151	[label=has_tradename,
+		minlen=2];
+	152	[label="C2356136
+urea 500 MG/ML [Remeven]"];
+	15 -> 152	[label=has_ingredient,
+		minlen=3];
+	153	[label="C2356137
+urea Topical Cream [Remeven]"];
+	15 -> 153	[label=has_ingredient,
+		minlen=4];
+	154	[label="C2356138
+Remeven 500 MG/ML Topical Cream"];
+	15 -> 154	[label=has_ingredient,
+		minlen=5];
+	155	[label="C3234575
+Remeven Topical Product"];
+	15 -> 155	[label=has_ingredient,
+		minlen=6];
+}

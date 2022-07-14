@@ -1,0 +1,36 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	66	[label="C2356304
+hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML / hepatitis B surface antigen vaccine 0.02 MG/ML [Twinrix]"];
+	660	[label="C2344118
+hepatitis B surface antigen vaccine 0.02 MG/ML"];
+	66 -> 660	[label=has_tradename,
+		minlen=1];
+	661	[label="C2356301
+hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML"];
+	66 -> 661	[label=has_tradename,
+		minlen=2];
+	662	[label="C1169549
+Twinrix Hepatitis A inactivated and Hepatitis B (recombinant) Vaccine 1 ML Injection"];
+	66 -> 662	[label=consists_of,
+		minlen=3];
+	663	[label="C2344119
+Twinrix Suspension for Injection"];
+	66 -> 663	[label=consists_of,
+		minlen=4];
+	664	[label="C0593953
+Twinrix"];
+	66 -> 664	[label=ingredient_of,
+		minlen=5];
+	665	[label="C3502988
+Hepatitis A Vaccine (Inactivated) Strain HM175 720 UNT/ML / Hepatitis B Surface Antigen Vaccine 0.02 MG/ML Prefilled Syringe [\
+Twinrix]"];
+	66 -> 665	[label=consists_of,
+		minlen=6];
+	666	[label="C4033691
+hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML / hepatitis B surface antigen vaccine 0.02 MG/ML Injection [Twinrix]"];
+	66 -> 666	[label=consists_of,
+		minlen=7];
+}

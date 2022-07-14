@@ -1,0 +1,55 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	18	[label="C2356070
+Vanacof"];
+	180	[label="C2342968
+chlophedianol/dexchlorpheniramine/PSE 12.5 mg-1 mg-30 mg/5 mL oral liquid"];
+	18 -> 180	[label=has_ingredient,
+		minlen=1];
+	181	[label="C0057606
+dexchlorpheniramine"];
+	18 -> 181	[label=has_tradename,
+		minlen=2];
+	182	[label="C0009214
+Codeine"];
+	18 -> 182	[label=has_tradename,
+		minlen=3];
+	183	[label="C0031469
+Phenylephrine"];
+	18 -> 183	[label=has_tradename,
+		minlen=4];
+	184	[label="C2356164
+codeine / dexchlorpheniramine / phenylephrine Oral Solution [Vanacof]"];
+	18 -> 184	[label=has_ingredient,
+		minlen=5];
+	185	[label="C0009217
+Codeine Phosphate"];
+	18 -> 185	[label=precise_ingredient_of,
+		minlen=6];
+	186	[label="C0137440
+dexchlorpheniramine maleate"];
+	18 -> 186	[label=precise_ingredient_of,
+		minlen=7];
+	187	[label="C0031470
+Phenylephrine Hydrochloride"];
+	18 -> 187	[label=precise_ingredient_of,
+		minlen=8];
+	188	[label="C2920528
+codeine phosphate 2 MG/ML / dexchlorpheniramine maleate 0.2 MG/ML / phenylephrine hydrochloride 1 MG/ML [Vanacof]"];
+	18 -> 188	[label=has_ingredient,
+		minlen=9];
+	189	[label="C2356165
+Vanacof CD, 10 mg-1 mg-5 mg/5 mL oral liquid"];
+	18 -> 189	[label=has_ingredient,
+		minlen=10];
+	1810	[label="C3241112
+Vanacof Oral Liquid Product"];
+	18 -> 1810	[label=has_ingredient,
+		minlen=1];
+	1811	[label="C3241114
+Vanacof Oral Product"];
+	18 -> 1811	[label=has_ingredient,
+		minlen=2];
+}

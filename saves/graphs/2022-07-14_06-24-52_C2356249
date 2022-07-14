@@ -1,0 +1,27 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	50	[label="C2356249
+insulin glulisine, human 100 UNT/ML [Apidra]"];
+	500	[label="C1577146
+insulin glulisine, human 100 UNT/ML"];
+	50 -> 500	[label=has_tradename,
+		minlen=1];
+	501	[label="C2356251
+Apidra 100unit/ml Solution for Injection"];
+	50 -> 501	[label=consists_of,
+		minlen=2];
+	502	[label="C1654827
+Apidra"];
+	50 -> 502	[label=ingredient_of,
+		minlen=3];
+	503	[label="C2683609
+Apidra SoloStar 100units/ml Pre-Filled Pen Solution for Injection"];
+	50 -> 503	[label=consists_of,
+		minlen=4];
+	504	[label="C3503234
+Apidra 100 UNT/ML Pen Injector"];
+	50 -> 504	[label=consists_of,
+		minlen=5];
+}

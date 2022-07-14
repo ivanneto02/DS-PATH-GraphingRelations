@@ -1,0 +1,35 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	58	[label="C2356288
+prednisolone Oral Suspension [Flo-Pred]"];
+	580	[label="C2342517
+prednisolone Oral Suspension"];
+	58 -> 580	[label=has_tradename,
+		minlen=1];
+	581	[label="C2356289
+Flo-Pred 3 MG/ML Oral Suspension"];
+	58 -> 581	[label=isa,
+		minlen=2];
+	582	[label="C2356291
+prednisolone 1 MG/ML Oral Suspension [Flo-Pred]"];
+	58 -> 582	[label=isa,
+		minlen=3];
+	583	[label="C0991537
+Oral Suspension"];
+	58 -> 583	[label=dose_form_of,
+		minlen=4];
+	584	[label="C2342285
+Flo-Pred"];
+	58 -> 584	[label=ingredient_of,
+		minlen=5];
+	585	[label="C3223907
+Flo-Pred Oral Liquid Product"];
+	58 -> 585	[label=inverse_isa,
+		minlen=6];
+	586	[label="C3223908
+Flo-Pred Oral Product"];
+	58 -> 586	[label=inverse_isa,
+		minlen=7];
+}

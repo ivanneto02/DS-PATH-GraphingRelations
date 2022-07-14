@@ -1,0 +1,43 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	5	[label="C2356018
+Chloraseptic Sore Throat"];
+	50	[label="C0005059
+Benzocaine"];
+	5 -> 50	[label=has_tradename,
+		minlen=1];
+	51	[label="C0025368
+Menthol"];
+	5 -> 51	[label=has_tradename,
+		minlen=2];
+	52	[label="C2356019
+benzocaine 6 MG / menthol 10 MG [Chloraseptic Sore Throat]"];
+	5 -> 52	[label=has_ingredient,
+		minlen=3];
+	53	[label="C2356020
+benzocaine / menthol Oral Lozenge [Chloraseptic Sore Throat]"];
+	5 -> 53	[label=has_ingredient,
+		minlen=4];
+	54	[label="C2356021
+Chloraseptic Soothing Citrus, 6 mg-10 mg mucous membrane lozenge"];
+	5 -> 54	[label=has_ingredient,
+		minlen=5];
+	55	[label="C2949288
+benzocaine 15 MG / menthol 10 MG [Chloraseptic Sore Throat]"];
+	5 -> 55	[label=has_ingredient,
+		minlen=6];
+	56	[label="C2949289
+MENTHOL 10 mg / BENZOCAINE 15 mg ORAL LOZENGE [Chloraseptic Sore Throat Max Liquid Center]"];
+	5 -> 56	[label=has_ingredient,
+		minlen=7];
+	57	[label="C3223612
+Chloraseptic Sore Throat Oral Product"];
+	5 -> 57	[label=has_ingredient,
+		minlen=8];
+	58	[label="C3466443
+Chloraseptic Sore Throat Lozenge Product"];
+	5 -> 58	[label=has_ingredient,
+		minlen=9];
+}

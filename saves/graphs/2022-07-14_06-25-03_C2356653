@@ -1,0 +1,27 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	87	[label="C2356653
+benzoyl peroxide Topical Gel [Soluclenz]"];
+	870	[label="C1252192
+Benzoyl Peroxide Gel"];
+	87 -> 870	[label=has_tradename,
+		minlen=1];
+	871	[label="C2356654
+Soluclenz Rx 5% Topical Gel"];
+	87 -> 871	[label=isa,
+		minlen=2];
+	872	[label="C1160728
+Topical Gel"];
+	87 -> 872	[label=dose_form_of,
+		minlen=3];
+	873	[label="C2356651
+Soluclenz"];
+	87 -> 873	[label=ingredient_of,
+		minlen=4];
+	874	[label="C3238634
+Soluclenz Topical Product"];
+	87 -> 874	[label=inverse_isa,
+		minlen=5];
+}

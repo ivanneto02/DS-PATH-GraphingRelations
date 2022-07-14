@@ -1,0 +1,27 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	40	[label="C2356137
+urea Topical Cream [Remeven]"];
+	400	[label="C1578316
+urea@@TOPICAL@CREAM (GRAM)"];
+	40 -> 400	[label=has_tradename,
+		minlen=1];
+	401	[label="C2356138
+Remeven 500 MG/ML Topical Cream"];
+	40 -> 401	[label=isa,
+		minlen=2];
+	402	[label="C0991551
+Topical Cream"];
+	40 -> 402	[label=dose_form_of,
+		minlen=3];
+	403	[label="C2356057
+Remeven"];
+	40 -> 403	[label=ingredient_of,
+		minlen=4];
+	404	[label="C3234575
+Remeven Topical Product"];
+	40 -> 404	[label=inverse_isa,
+		minlen=5];
+}

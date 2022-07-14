@@ -1,0 +1,48 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	49	[label="C2356214
+Multitrace-4 Element Injectable Solution"];
+	490	[label="C2356210
+chromic chloride 0.0205 MG/ML / Copper Sulfate 1.57 MG/ML / manganese sulfate 0.308 MG/ML / ZnSO4 4.39 MG/ML Injectable \
+Solution"];
+	49 -> 490	[label=has_tradename,
+		minlen=1];
+	491	[label="C0991511
+Injectable Solution"];
+	49 -> 491	[label=dose_form_of,
+		minlen=2];
+	492	[label="C2356268
+chromic chloride / copper sulfate / manganese sulfate / zinc sulfate Injectable Solution [Multitrace-4]"];
+	49 -> 492	[label=inverse_isa,
+		minlen=3];
+	493	[label="C0721838
+Multitrace-4"];
+	49 -> 493	[label=ingredient_of,
+		minlen=4];
+	494	[label="C3237693
+Multitrace-4 Injectable Product"];
+	49 -> 494	[label=inverse_isa,
+		minlen=5];
+	495	[label="C4020269
+chromic chloride 0.0205 MG/ML / copper sulfate 1.57 MG/ML / manganese sulfate 0.308 MG/ML / zinc sulfate 4.39 MG/ML [Multitrace-4]"];
+	49 -> 495	[label=constitutes,
+		minlen=6];
+	496	[label="C0984876
+chromic chloride 0.0205 MG/ML"];
+	49 -> 496	[label=constitutes,
+		minlen=7];
+	497	[label="C0985176
+copper sulfate 1.57 MG/ML"];
+	49 -> 497	[label=constitutes,
+		minlen=8];
+	498	[label="C1125443
+manganese sulfate 0.308 MG/ML"];
+	49 -> 498	[label=constitutes,
+		minlen=9];
+	499	[label="C3464971
+zinc sulfate 4.39 MG/ML"];
+	49 -> 499	[label=constitutes,
+		minlen=10];
+}

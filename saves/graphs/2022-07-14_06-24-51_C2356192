@@ -1,0 +1,35 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	45	[label="C2356192
+Brondil"];
+	450	[label="C0013360
+Dyphylline"];
+	45 -> 450	[label=has_tradename,
+		minlen=1];
+	451	[label="C0018305
+Ether, Guaiacol Glyceryl"];
+	45 -> 451	[label=has_tradename,
+		minlen=2];
+	452	[label="C2356193
+dyphylline 20 MG/ML / guaifenesin 20 MG/ML [Brondil]"];
+	45 -> 452	[label=has_ingredient,
+		minlen=3];
+	453	[label="C2356194
+dyphylline / guaiFENesin Oral Solution [Brondil]"];
+	45 -> 453	[label=has_ingredient,
+		minlen=4];
+	454	[label="C2356195
+Brondil (Dyphylline 20 MG/ML / Guaifenesin 20 MG/ML) Oral Solution"];
+	45 -> 454	[label=has_ingredient,
+		minlen=5];
+	455	[label="C3221519
+Brondil Oral Liquid Product"];
+	45 -> 455	[label=has_ingredient,
+		minlen=6];
+	456	[label="C3221520
+Brondil Oral Product"];
+	45 -> 456	[label=has_ingredient,
+		minlen=7];
+}

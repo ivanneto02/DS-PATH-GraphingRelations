@@ -1,0 +1,69 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	19	[label="C2937432
+copper sulfate 0.8 MG / ferrous fumarate 324 MG / folic acid 1 MG / magnesium sulfate 6.9 MG / manganese sulfate 1.3 MG / \
+niacinamide 30 MG / pantothenic acid 10 MG / pyridoxine 5 MG / riboflavin 6 MG / sodium ascorbate 200 MG / thiamine 10 MG / vitamin \
+B12 0.015 MG / zinc sulfate 18.2 MG [Ferrocite Plus]"];
+	190	[label="C0990639
+thiamine 10 MG"];
+	19 -> 190	[label=has_tradename,
+		minlen=1];
+	191	[label="C1104282
+ferrous fumarate 324 MG"];
+	19 -> 191	[label=has_tradename,
+		minlen=2];
+	192	[label="C1133711
+vitamin B12 0.015 MG"];
+	19 -> 192	[label=has_tradename,
+		minlen=3];
+	193	[label="C2355685
+riboflavin 6 MG"];
+	19 -> 193	[label=has_tradename,
+		minlen=4];
+	194	[label="C1165949
+pantothenic acid 10 MG"];
+	19 -> 194	[label=has_tradename,
+		minlen=5];
+	195	[label="C2356076
+copper sulfate 0.8 MG"];
+	19 -> 195	[label=has_tradename,
+		minlen=6];
+	196	[label="C2356077
+magnesium sulfate 6.9 MG"];
+	19 -> 196	[label=has_tradename,
+		minlen=7];
+	197	[label="C2356078
+manganese sulfate 1.3 MG"];
+	19 -> 197	[label=has_tradename,
+		minlen=8];
+	198	[label="C2356079
+niacinamide 30 MG"];
+	19 -> 198	[label=has_tradename,
+		minlen=9];
+	199	[label="C2356080
+pyridoxine 5 MG"];
+	19 -> 199	[label=has_tradename,
+		minlen=10];
+	1910	[label="C2356081
+sodium ascorbate 200 MG"];
+	19 -> 1910	[label=has_tradename,
+		minlen=1];
+	1911	[label="C2356082
+zinc sulfate 18.2 MG"];
+	19 -> 1911	[label=has_tradename,
+		minlen=2];
+	1912	[label="C2356087
+Ferrocite Plus, Multiple Vitamins with Minerals oral capsule"];
+	19 -> 1912	[label=consists_of,
+		minlen=3];
+	1913	[label="C2356031
+Ferrocite Plus"];
+	19 -> 1913	[label=ingredient_of,
+		minlen=4];
+	1914	[label="C0986175
+folic acid 1 MG"];
+	19 -> 1914	[label=has_tradename,
+		minlen=5];
+}

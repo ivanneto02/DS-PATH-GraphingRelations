@@ -1,0 +1,23 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	6	[label="C2356019
+benzocaine 6 MG / menthol 10 MG [Chloraseptic Sore Throat]"];
+	60	[label="C0984070
+benzocaine 6 MG"];
+	6 -> 60	[label=has_tradename,
+		minlen=1];
+	61	[label="C0987601
+menthol 10 MG"];
+	6 -> 61	[label=has_tradename,
+		minlen=2];
+	62	[label="C2356021
+Chloraseptic Soothing Citrus, 6 mg-10 mg mucous membrane lozenge"];
+	6 -> 62	[label=consists_of,
+		minlen=3];
+	63	[label="C2356018
+Chloraseptic Sore Throat"];
+	6 -> 63	[label=ingredient_of,
+		minlen=4];
+}

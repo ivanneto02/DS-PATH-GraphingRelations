@@ -1,0 +1,40 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	34	[label="C2356120
+calcium ascorbate 150 MG / calcium threonate 2 MG / ferrous asparto glycinate 70 MG / liver stomach concentrate 50 MG / \
+succinic acid 75 MG / vitamin B12 0.01 MG [Multigen]"];
+	340	[label="C0985208
+vitamin B12 0.01 MG"];
+	34 -> 340	[label=has_tradename,
+		minlen=1];
+	341	[label="C2356113
+calcium ascorbate 150 MG"];
+	34 -> 341	[label=has_tradename,
+		minlen=2];
+	342	[label="C2356114
+calcium threonate 2 MG"];
+	34 -> 342	[label=has_tradename,
+		minlen=3];
+	343	[label="C2356115
+ferrous asparto glycinate 70 MG"];
+	34 -> 343	[label=has_tradename,
+		minlen=4];
+	344	[label="C2356116
+liver stomach concentrate 50 MG"];
+	34 -> 344	[label=has_tradename,
+		minlen=5];
+	345	[label="C2356117
+succinic acid 75 MG"];
+	34 -> 345	[label=has_tradename,
+		minlen=6];
+	346	[label="C2356122
+Multigen, Vitamin B12 with C, Iron and Intrinsic Factor oral tablet"];
+	34 -> 346	[label=consists_of,
+		minlen=7];
+	347	[label="C2356046
+Multigen"];
+	34 -> 347	[label=ingredient_of,
+		minlen=8];
+}

@@ -1,0 +1,51 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	81	[label="C2356603
+Cepacol Sore Throat from Post Nasal Drip"];
+	810	[label="C0025368
+Menthol"];
+	81 -> 810	[label=has_tradename,
+		minlen=1];
+	811	[label="C2356604
+menthol 5.4 MG [Cepacol Sore Throat from Post Nasal Drip]"];
+	81 -> 811	[label=has_ingredient,
+		minlen=2];
+	812	[label="C2356605
+menthol Oral Lozenge [Cepacol Sore Throat from Post Nasal Drip]"];
+	81 -> 812	[label=has_ingredient,
+		minlen=3];
+	813	[label="C2356606
+Cepacol Sore Throat from Post Nasal Drip Cherry, mucous membrane lozenge"];
+	81 -> 813	[label=has_ingredient,
+		minlen=4];
+	814	[label="C2726897
+menthol 3 MG [Cepacol Sore Throat from Post Nasal Drip]"];
+	81 -> 814	[label=has_ingredient,
+		minlen=5];
+	815	[label="C2726898
+Cepacol Sore Throat (obsolete1), mucous membrane lozenge"];
+	81 -> 815	[label=has_ingredient,
+		minlen=6];
+	816	[label="C2946800
+menthol 4.5 MG [Cepacol Sore Throat from Post Nasal Drip]"];
+	81 -> 816	[label=has_ingredient,
+		minlen=7];
+	817	[label="C2946801
+Cepacol Sore Throat from Post Nasal Drip 4.5 MG Oral Lozenge"];
+	81 -> 817	[label=has_ingredient,
+		minlen=8];
+	818	[label="C3221016
+Cepacol Sore Throat from Post Nasal Drip Oral Product"];
+	81 -> 818	[label=has_ingredient,
+		minlen=9];
+	819	[label="C3467274
+Cepacol Sore Throat from Post Nasal Drip Lozenge Product"];
+	81 -> 819	[label=has_ingredient,
+		minlen=10];
+	8110	[label="C2356606
+Cepacol Sore Throat from Post Nasal Drip Cherry, mucous membrane lozenge"];
+	81 -> 8110	[label=has_ingredient,
+		minlen=1];
+}

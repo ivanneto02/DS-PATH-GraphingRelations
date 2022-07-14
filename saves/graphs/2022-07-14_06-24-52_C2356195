@@ -1,0 +1,43 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	48	[label="C2356195
+Brondil (Dyphylline 20 MG/ML / Guaifenesin 20 MG/ML) Oral Solution"];
+	480	[label="C0976574
+dyphylline-guaifenesin 100 mg-100 mg/5 mL oral liquid"];
+	48 -> 480	[label=has_tradename,
+		minlen=1];
+	481	[label="C2356194
+dyphylline / guaiFENesin Oral Solution [Brondil]"];
+	48 -> 481	[label=inverse_isa,
+		minlen=2];
+	482	[label="C0985694
+dyphylline 20 MG/ML"];
+	48 -> 482	[label=constitutes,
+		minlen=3];
+	483	[label="C0986371
+guaiFENesin 20 MG/ML"];
+	48 -> 483	[label=constitutes,
+		minlen=4];
+	484	[label="C2356193
+dyphylline 20 MG/ML / guaifenesin 20 MG/ML [Brondil]"];
+	48 -> 484	[label=constitutes,
+		minlen=5];
+	485	[label="C0991536
+Oral Solution"];
+	48 -> 485	[label=dose_form_of,
+		minlen=6];
+	486	[label="C2356192
+Brondil"];
+	48 -> 486	[label=ingredient_of,
+		minlen=7];
+	487	[label="C3221519
+Brondil Oral Liquid Product"];
+	48 -> 487	[label=inverse_isa,
+		minlen=8];
+	488	[label="C3221520
+Brondil Oral Product"];
+	48 -> 488	[label=inverse_isa,
+		minlen=9];
+}

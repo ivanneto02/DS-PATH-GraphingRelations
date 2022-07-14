@@ -1,0 +1,33 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	3	[label="C2937430
+calcium ascorbate / calcium threonate / ferrous asparto glycinate / ferrous fumarate / folic acid / succinic acid / vitamin \
+B12 Oral Tablet [Anemagen]"];
+	30	[label="C2937429
+calcium ascorbate / calcium threonate / ferrous asparto glycinate / ferrous fumarate / folic acid / succinic acid / vitamin \
+B12 Oral Tablet"];
+	3 -> 30	[label=has_tradename,
+		minlen=1];
+	31	[label="C2356007
+Anemagen Forte, Vitamin B Complex with C, Folic Acid and Iron oral tablet"];
+	3 -> 31	[label=isa,
+		minlen=2];
+	32	[label="C0993159
+Oral Tablet"];
+	3 -> 32	[label=dose_form_of,
+		minlen=3];
+	33	[label="C0718535
+Anemagen"];
+	3 -> 33	[label=ingredient_of,
+		minlen=4];
+	34	[label="C3230151
+Anemagen Oral Product"];
+	3 -> 34	[label=inverse_isa,
+		minlen=5];
+	35	[label="C3230152
+Anemagen Pill"];
+	3 -> 35	[label=inverse_isa,
+		minlen=6];
+}

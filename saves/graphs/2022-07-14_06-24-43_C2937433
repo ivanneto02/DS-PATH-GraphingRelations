@@ -1,0 +1,33 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	20	[label="C2937433
+copper sulfate / ferrous fumarate / folic acid / magnesium sulfate / manganese sulfate / niacinamide / pantothenic acid / \
+pyridoxine / riboflavin / sodium ascorbate / thiamine / vitamin B12 / zinc sulfate Oral Capsule [Ferrocite Plus]"];
+	200	[label="C2937431
+copper sulfate / ferrous fumarate / folic acid / magnesium sulfate / manganese sulfate / niacinamide / pantothenic acid / \
+pyridoxine / riboflavin / sodium ascorbate / thiamine / vitamin B12 / zinc sulfate Oral Capsule"];
+	20 -> 200	[label=has_tradename,
+		minlen=1];
+	201	[label="C2356087
+Ferrocite Plus, Multiple Vitamins with Minerals oral capsule"];
+	20 -> 201	[label=isa,
+		minlen=2];
+	202	[label="C0991533
+Oral Capsule"];
+	20 -> 202	[label=dose_form_of,
+		minlen=3];
+	203	[label="C2356031
+Ferrocite Plus"];
+	20 -> 203	[label=ingredient_of,
+		minlen=4];
+	204	[label="C3221875
+Ferrocite Plus Oral Product"];
+	20 -> 204	[label=inverse_isa,
+		minlen=5];
+	205	[label="C3221876
+Ferrocite Plus Pill"];
+	20 -> 205	[label=inverse_isa,
+		minlen=6];
+}

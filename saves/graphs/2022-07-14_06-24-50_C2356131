@@ -1,0 +1,139 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	38	[label="C2356131
+N Ice Citrus, mucous membrane lozenge"];
+	380	[label="C0025368
+Menthol"];
+	38 -> 380	[label=ingredient_of,
+		minlen=1];
+	381	[label="C0876100
+N Ice Citrus"];
+	38 -> 381	[label=ingredient_of,
+		minlen=2];
+	382	[label="C0025368
+Menthol"];
+	38 -> 382	[label=ingredient_of,
+		minlen=3];
+	383	[label="C0876746
+N Ice Eucalyptus"];
+	38 -> 383	[label=ingredient_of,
+		minlen=4];
+	384	[label="C0025368
+Menthol"];
+	38 -> 384	[label=ingredient_of,
+		minlen=5];
+	385	[label="C0876101
+N Ice Honey/Lemon"];
+	38 -> 385	[label=ingredient_of,
+		minlen=6];
+	386	[label="C0025368
+Menthol"];
+	38 -> 386	[label=ingredient_of,
+		minlen=7];
+	387	[label="C0721913
+N Ice Cherry"];
+	38 -> 387	[label=ingredient_of,
+		minlen=8];
+	388	[label="C0025368
+Menthol"];
+	38 -> 388	[label=ingredient_of,
+		minlen=9];
+	389	[label="C0721912
+N Ice"];
+	38 -> 389	[label=ingredient_of,
+		minlen=10];
+	3810	[label="C0978410
+Menthol 5 MG Oromucosal Lozenge/Troche"];
+	38 -> 3810	[label=has_tradename,
+		minlen=1];
+	3811	[label="C0992572
+menthol 5 MG"];
+	38 -> 3811	[label=constitutes,
+		minlen=2];
+	3812	[label="C2356129
+menthol 5 MG [N'ICE]"];
+	38 -> 3812	[label=constitutes,
+		minlen=3];
+	3813	[label="C0991564
+Lozenge Dosage Form"];
+	38 -> 3813	[label=dose_form_of,
+		minlen=4];
+	3814	[label="C0721912
+N Ice"];
+	38 -> 3814	[label=ingredient_of,
+		minlen=5];
+	3815	[label="C2979953
+menthol Oral Lozenge [N'ICE]"];
+	38 -> 3815	[label=inverse_isa,
+		minlen=6];
+	3816	[label="C3230937
+N'ICE Oral Product"];
+	38 -> 3816	[label=inverse_isa,
+		minlen=7];
+	3817	[label="C3466444
+N'ICE Lozenge Product"];
+	38 -> 3817	[label=inverse_isa,
+		minlen=8];
+	3818	[label="C0025368
+Menthol"];
+	38 -> 3818	[label=active_moiety_of,
+		minlen=9];
+	3819	[label="C0101048
+acesulfam-K"];
+	38 -> 3819	[label=inactive_ingredient_of,
+		minlen=10];
+	3820	[label="C0025368
+Menthol"];
+	38 -> 3820	[label=active_moiety_of,
+		minlen=1];
+	3821	[label="C0025368
+Menthol"];
+	38 -> 3821	[label=active_moiety_of,
+		minlen=2];
+	3822	[label="C0101048
+acesulfam-K"];
+	38 -> 3822	[label=inactive_ingredient_of,
+		minlen=3];
+	3823	[label="C0025368
+Menthol"];
+	38 -> 3823	[label=active_ingredient_of,
+		minlen=4];
+	3824	[label="C0025368
+Menthol"];
+	38 -> 3824	[label=active_ingredient_of,
+		minlen=5];
+	3825	[label="C0101048
+acesulfam-K"];
+	38 -> 3825	[label=inactive_ingredient_of,
+		minlen=6];
+	3826	[label="C0101048
+acesulfam-K"];
+	38 -> 3826	[label=inactive_ingredient_of,
+		minlen=7];
+	3827	[label="C0025368
+Menthol"];
+	38 -> 3827	[label=active_moiety_of,
+		minlen=8];
+	3828	[label="C0025368
+Menthol"];
+	38 -> 3828	[label=active_ingredient_of,
+		minlen=9];
+	3829	[label="C0025368
+Menthol"];
+	38 -> 3829	[label=active_ingredient_of,
+		minlen=10];
+	3830	[label="C0101048
+acesulfam-K"];
+	38 -> 3830	[label=inactive_ingredient_of,
+		minlen=1];
+	3831	[label="C0025368
+Menthol"];
+	38 -> 3831	[label=active_moiety_of,
+		minlen=2];
+	3832	[label="C0025368
+Menthol"];
+	38 -> 3832	[label=active_ingredient_of,
+		minlen=3];
+}

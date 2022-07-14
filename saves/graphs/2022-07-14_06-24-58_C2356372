@@ -1,0 +1,33 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	70	[label="C2356372
+measles virus vaccine live, Enders' attenuated Edmonston strain 2000 UNT/ML / mumps virus vaccine live, Jeryl Lynn strain \
+25000 UNT/ML / rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/ML [M-M-R II]"];
+	700	[label="C2242043
+rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/ML"];
+	70 -> 700	[label=has_tradename,
+		minlen=1];
+	701	[label="C2356368
+measles virus vaccine live, Enders' attenuated Edmonston strain 2000 UNT/ML"];
+	70 -> 701	[label=has_tradename,
+		minlen=2];
+	702	[label="C2356369
+mumps virus vaccine live, Jeryl Lynn strain 25000 UNT/ML"];
+	70 -> 702	[label=has_tradename,
+		minlen=3];
+	703	[label="C0710716
+M-M-R II, subcutaneous powder for injection"];
+	70 -> 703	[label=consists_of,
+		minlen=4];
+	704	[label="C0721476
+M-M-R II"];
+	70 -> 704	[label=ingredient_of,
+		minlen=5];
+	705	[label="C4033672
+measles virus vaccine live, Enders' attenuated Edmonston strain 2000 UNT/ML / mumps virus vaccine live, Jeryl Lynn strain \
+25000 UNT/ML / rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/ML Injection [M-M-R II]"];
+	70 -> 705	[label=consists_of,
+		minlen=6];
+}

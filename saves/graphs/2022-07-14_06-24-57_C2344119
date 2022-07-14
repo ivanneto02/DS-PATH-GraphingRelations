@@ -1,0 +1,152 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	69	[label="C2344119
+Twinrix Suspension for Injection"];
+	690	[label="C2355842
+HEPATITIS A&B (720/20) VACCINE 1ML SYR"];
+	69 -> 690	[label=has_tradename,
+		minlen=1];
+	691	[label="C2356307
+hepatitis A vaccine (inactivated) strain HM175 / hepatitis B surface antigen vaccine Prefilled Syringe [Twinrix]"];
+	69 -> 691	[label=inverse_isa,
+		minlen=2];
+	692	[label="C2344118
+hepatitis B surface antigen vaccine 0.02 MG/ML"];
+	69 -> 692	[label=constitutes,
+		minlen=3];
+	693	[label="C2356301
+hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML"];
+	69 -> 693	[label=constitutes,
+		minlen=4];
+	694	[label="C2356304
+hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML / hepatitis B surface antigen vaccine 0.02 MG/ML [Twinrix]"];
+	69 -> 694	[label=constitutes,
+		minlen=5];
+	695	[label="C1609474
+Prefilled Syringes"];
+	69 -> 695	[label=dose_form_of,
+		minlen=6];
+	696	[label="C0593953
+Twinrix"];
+	69 -> 696	[label=ingredient_of,
+		minlen=7];
+	697	[label="C3240496
+Twinrix Injectable Product"];
+	69 -> 697	[label=inverse_isa,
+		minlen=8];
+	698	[label="C3502988
+Hepatitis A Vaccine (Inactivated) Strain HM175 720 UNT/ML / Hepatitis B Surface Antigen Vaccine 0.02 MG/ML Prefilled Syringe [\
+Twinrix]"];
+	69 -> 698	[label=has_quantified_form,
+		minlen=9];
+	699	[label="C0002371
+Alumina, Hydrated"];
+	69 -> 699	[label=inactive_ingredient_of,
+		minlen=10];
+	6910	[label="C2355841
+HEPATITIS A VIRUS STRAIN HM175 ANTIGEN (FORMALDEHYDE INACTIVATED)"];
+	69 -> 6910	[label=active_ingredient_of,
+		minlen=1];
+	6911	[label="C0051519
+aluminum phosphate"];
+	69 -> 6911	[label=inactive_ingredient_of,
+		minlen=2];
+	6912	[label="C0016564
+Formaldehyde"];
+	69 -> 6912	[label=inactive_ingredient_of,
+		minlen=3];
+	6913	[label="C2355841
+HEPATITIS A VIRUS STRAIN HM175 ANTIGEN (FORMALDEHYDE INACTIVATED)"];
+	69 -> 6913	[label=active_moiety_of,
+		minlen=4];
+	6914	[label="C0037494
+Salt"];
+	69 -> 6914	[label=inactive_ingredient_of,
+		minlen=5];
+	6915	[label="C0032600
+Polyethylene glycol 2000 Sorbitan Laurate"];
+	69 -> 6915	[label=inactive_ingredient_of,
+		minlen=6];
+	6916	[label="C0043047
+Water"];
+	69 -> 6916	[label=inactive_ingredient_of,
+		minlen=7];
+	6917	[label="C2725008
+HEPATITIS B VIRUS SUBTYPE ADW2 HBSAG SURFACE PROTEIN ANTIGEN"];
+	69 -> 6917	[label=active_ingredient_of,
+		minlen=8];
+	6918	[label="C2725008
+HEPATITIS B VIRUS SUBTYPE ADW2 HBSAG SURFACE PROTEIN ANTIGEN"];
+	69 -> 6918	[label=active_moiety_of,
+		minlen=9];
+	6919	[label="C0027607
+Neomycin Sulfate"];
+	69 -> 6919	[label=inactive_ingredient_of,
+		minlen=10];
+	6920	[label="C5397396
+Hepatitis A+B vaccine"];
+	69 -> 6920	[label=mapped_to,
+		minlen=1];
+	6921	[label="C0051519
+aluminum phosphate"];
+	69 -> 6921	[label=inactive_ingredient_of,
+		minlen=2];
+	6922	[label="C0027607
+Neomycin Sulfate"];
+	69 -> 6922	[label=inactive_ingredient_of,
+		minlen=3];
+	6923	[label="C0016564
+Formaldehyde"];
+	69 -> 6923	[label=inactive_ingredient_of,
+		minlen=4];
+	6924	[label="C0002371
+Alumina, Hydrated"];
+	69 -> 6924	[label=inactive_ingredient_of,
+		minlen=5];
+	6925	[label="C0032600
+Polyethylene glycol 2000 Sorbitan Laurate"];
+	69 -> 6925	[label=inactive_ingredient_of,
+		minlen=6];
+	6926	[label="C0043047
+Water"];
+	69 -> 6926	[label=inactive_ingredient_of,
+		minlen=7];
+	6927	[label="C2725008
+HEPATITIS B VIRUS SUBTYPE ADW2 HBSAG SURFACE PROTEIN ANTIGEN"];
+	69 -> 6927	[label=active_ingredient_of,
+		minlen=8];
+	6928	[label="C2355841
+HEPATITIS A VIRUS STRAIN HM175 ANTIGEN (FORMALDEHYDE INACTIVATED)"];
+	69 -> 6928	[label=active_ingredient_of,
+		minlen=9];
+	6929	[label="C2725008
+HEPATITIS B VIRUS SUBTYPE ADW2 HBSAG SURFACE PROTEIN ANTIGEN"];
+	69 -> 6929	[label=active_moiety_of,
+		minlen=10];
+	6930	[label="C0037494
+Salt"];
+	69 -> 6930	[label=inactive_ingredient_of,
+		minlen=1];
+	6931	[label="C2355841
+HEPATITIS A VIRUS STRAIN HM175 ANTIGEN (FORMALDEHYDE INACTIVATED)"];
+	69 -> 6931	[label=active_moiety_of,
+		minlen=2];
+	6932	[label="C2709982
+Hepatitis A Vaccine, Inactivated/Hepatitis B Vaccine Recombinant 720 EL U/1 ML-20 MCG/1 ML Intramuscular Suspension [TWINRIX]"];
+	69 -> 6932	[label=includes,
+		minlen=3];
+	6933	[label="C0795623
+Hep A - Hepatitis A vaccine"];
+	69 -> 6933	[label=ingredient_of,
+		minlen=4];
+	6934	[label="C1445761
+hepatitis B vaccine recombinant"];
+	69 -> 6934	[label=ingredient_of,
+		minlen=5];
+	6935	[label="C1962509
+Twinrix Preservative-Free"];
+	69 -> 6935	[label=ingredient_of,
+		minlen=6];
+}

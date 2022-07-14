@@ -1,0 +1,41 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	53	[label="C2356268
+chromic chloride / copper sulfate / manganese sulfate / zinc sulfate Injectable Solution [Multitrace-4]"];
+	530	[label="C1251451
+chromic chloride / copper sulfate / manganese sulfate / zinc sulfate Injectable Solution"];
+	53 -> 530	[label=has_tradename,
+		minlen=1];
+	531	[label="C0712406
+Multitrace-4 Concentrate, 10.0 mcg-1 mg-0.5 mg-5 mg/mL intravenous solution"];
+	53 -> 531	[label=isa,
+		minlen=2];
+	532	[label="C0991511
+Injectable Solution"];
+	53 -> 532	[label=dose_form_of,
+		minlen=3];
+	533	[label="C0721838
+Multitrace-4"];
+	53 -> 533	[label=ingredient_of,
+		minlen=4];
+	534	[label="C3237693
+Multitrace-4 Injectable Product"];
+	53 -> 534	[label=inverse_isa,
+		minlen=5];
+	535	[label="C0712403
+Multitrace-4 Pediatric (chromic chloride 5.12 MCG (chromium 1 MCG) / copper sulfate 0.4 MG (copper 0.1 MG) / manganese \
+sulfate 77 MCG (manganese 25 MCG) / zinc sulfate 4.39 MG (zinc 1 MG)) per 1 ML Injectable Solution"];
+	53 -> 535	[label=isa,
+		minlen=6];
+	536	[label="C0712395
+Multitrace-4 Neonatal (chromic chloride 4.36 MCG (chromium 0.85 MCG) / copper sulfate 0.39 MG (copper 0.1 MG) / manganese \
+sulfate 77 MCG (manganese 25 MCG) / zinc sulfate 6.6 MG (zinc 1.5 MG)) per ML Injectable Solution"];
+	53 -> 536	[label=isa,
+		minlen=7];
+	537	[label="C2356214
+Multitrace-4 Element Injectable Solution"];
+	53 -> 537	[label=isa,
+		minlen=8];
+}

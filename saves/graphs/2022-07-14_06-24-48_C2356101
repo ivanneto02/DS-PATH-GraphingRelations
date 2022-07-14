@@ -1,0 +1,31 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	31	[label="C2356101
+brompheniramine / codeine Oral Solution [Nalex AC]"];
+	310	[label="C2241885
+brompheniramine / codeine Oral Solution"];
+	31 -> 310	[label=has_tradename,
+		minlen=1];
+	311	[label="C0991536
+Oral Solution"];
+	31 -> 311	[label=dose_form_of,
+		minlen=2];
+	312	[label="C2356099
+Nalex AC"];
+	31 -> 312	[label=ingredient_of,
+		minlen=3];
+	313	[label="C3231490
+Nalex AC Oral Liquid Product"];
+	31 -> 313	[label=inverse_isa,
+		minlen=4];
+	314	[label="C3231491
+Nalex AC Oral Product"];
+	31 -> 314	[label=inverse_isa,
+		minlen=5];
+	315	[label="C2356102
+Nalex AC, 2 mg-10 mg/5 mL oral syrup"];
+	31 -> 315	[label=isa,
+		minlen=6];
+}

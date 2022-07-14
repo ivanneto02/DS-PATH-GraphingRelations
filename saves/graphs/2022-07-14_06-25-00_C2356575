@@ -1,0 +1,59 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	79	[label="C2356575
+Brovex PBC"];
+	790	[label="C0006246
+Brompheniramine"];
+	79 -> 790	[label=has_tradename,
+		minlen=1];
+	791	[label="C0009214
+Codeine"];
+	79 -> 791	[label=has_tradename,
+		minlen=2];
+	792	[label="C0031469
+Phenylephrine"];
+	79 -> 792	[label=has_tradename,
+		minlen=3];
+	793	[label="C2356577
+brompheniramine / codeine / phenylephrine Oral Tablet [Brovex PBC]"];
+	79 -> 793	[label=has_ingredient,
+		minlen=4];
+	794	[label="C0009217
+Codeine Phosphate"];
+	79 -> 794	[label=precise_ingredient_of,
+		minlen=5];
+	795	[label="C3222202
+Brovex PBC Oral Product"];
+	79 -> 795	[label=has_ingredient,
+		minlen=6];
+	796	[label="C3222203
+Brovex PBC Pill"];
+	79 -> 796	[label=has_ingredient,
+		minlen=7];
+	797	[label="C0546853
+Maleate, Brompheniramine"];
+	79 -> 797	[label=precise_ingredient_of,
+		minlen=8];
+	798	[label="C0031470
+Phenylephrine Hydrochloride"];
+	79 -> 798	[label=precise_ingredient_of,
+		minlen=9];
+	799	[label="C2918194
+brompheniramine maleate 4 MG / codeine phosphate 10 MG / phenylephrine hydrochloride 10 MG [Brovex PBC]"];
+	79 -> 799	[label=has_ingredient,
+		minlen=10];
+	7910	[label="C2365496
+BroveX PB C 10mg-4mg-10mg Tablet"];
+	79 -> 7910	[label=has_ingredient,
+		minlen=1];
+	7911	[label="C2918212
+brompheniramine maleate 4 MG / codeine phosphate 20 MG / phenylephrine hydrochloride 10 MG [Brovex PBC]"];
+	79 -> 7911	[label=has_ingredient,
+		minlen=2];
+	7912	[label="C2356583
+BroveX PB CX 10mg-4mg-20mg Tablet"];
+	79 -> 7912	[label=has_ingredient,
+		minlen=3];
+}

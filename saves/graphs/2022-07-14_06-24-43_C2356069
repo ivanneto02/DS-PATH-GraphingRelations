@@ -1,0 +1,35 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	17	[label="C2356069
+Triple Paste AF"];
+	170	[label="C2356162
+Triple Paste AF, 2% topical ointment"];
+	17 -> 170	[label=has_ingredient,
+		minlen=1];
+	171	[label="C0025942
+Miconazole"];
+	17 -> 171	[label=has_tradename,
+		minlen=2];
+	172	[label="C2356161
+miconazole Topical Ointment [Triple Paste AF]"];
+	17 -> 172	[label=has_ingredient,
+		minlen=3];
+	173	[label="C0086620
+Miconazole Nitrate"];
+	17 -> 173	[label=precise_ingredient_of,
+		minlen=4];
+	174	[label="C2920558
+miconazole nitrate 0.02 MG/MG [Triple Paste AF]"];
+	17 -> 174	[label=has_ingredient,
+		minlen=5];
+	175	[label="C2356162
+Triple Paste AF, 2% topical ointment"];
+	17 -> 175	[label=has_ingredient,
+		minlen=6];
+	176	[label="C3238768
+Triple Paste AF Topical Product"];
+	17 -> 176	[label=has_ingredient,
+		minlen=7];
+}
