@@ -26,7 +26,6 @@ def main():
         print(f"> Creating graph {i+1}...")
         gra = graphviz.Digraph(format="png", node_attr={"colorscheme" : "gnbu9", "style" : "filled"})
         gra.node(str(i), str(relations_results[i][0][0])+'\n'+str(get_strings_dic[relations_results[i][0][0]])[:stop_letters])
-        edges = []
         for j in range(len(relations_results[i])):
             gra.node(f"{i}{j}", str(relations_results[i][j][2])+'\n'+str(get_strings_dic[relations_results[i][j][2]])[:stop_letters])
             gra.edge(str(i), f"{i}{j}", label=str(relations_results[i][j][1]))
