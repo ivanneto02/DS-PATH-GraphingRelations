@@ -1,6 +1,7 @@
 venv/
 __pycache__/
 saves/tests/
+saves/graphs/
 test.txt
 
 .env
