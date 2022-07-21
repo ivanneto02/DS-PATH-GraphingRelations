@@ -10,7 +10,7 @@ from datetime import datetime
 
 def main():
     print("> Starting program")
-    viz.visualize(CUIs)
+    viz.visualize_rxnorm()
     print("> Ending program")
 
 if __name__ == "__main__":
