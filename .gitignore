@@ -5,3 +5,5 @@ saves/graphs/
 test.txt
 
 .env
+
+outfile.svg
