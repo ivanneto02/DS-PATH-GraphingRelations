@@ -1,0 +1,57 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	1	[label="C0714714
+Uro-KP-Neutral Caplet"];
+	10	[label="C2355961
+Dibasic Pot phosphate 250 MG / Sodium Phosphate, Dibasic 250 MG / Sodium Phosphate, Monobasic 49.5 MG Oral Tablet"];
+	1 -> 10	[label="RB
+has_tradename",
+		minlen=1];
+	11	[label="C2355964
+dibasic potassium phosphate / sodium phosphate, dibasic / sodium phosphate, monobasic Oral Tablet [Uro-KP]"];
+	1 -> 11	[label="RB
+inverse_isa",
+		minlen=2];
+	12	[label="C2355957
+dibasic potassium phosphate 250 MG"];
+	1 -> 12	[label="RO
+constitutes",
+		minlen=3];
+	13	[label="C2355958
+sodium phosphate, dibasic 250 MG"];
+	1 -> 13	[label="RO
+constitutes",
+		minlen=4];
+	14	[label="C2355959
+sodium phosphate, monobasic 49.5 MG"];
+	1 -> 14	[label="RO
+constitutes",
+		minlen=5];
+	15	[label="C2355963
+dibasic potassium phosphate 250 MG / sodium phosphate, dibasic 250 MG / sodium phosphate, monobasic 49.5 MG [Uro-KP]"];
+	1 -> 15	[label="RO
+constitutes",
+		minlen=6];
+	16	[label="C0993159
+Oral Tablet"];
+	1 -> 16	[label="RO
+dose_form_of",
+		minlen=7];
+	17	[label="C2355962
+Uro-KP"];
+	1 -> 17	[label="RO
+ingredient_of",
+		minlen=8];
+	18	[label="C3240307
+Uro-KP Oral Product"];
+	1 -> 18	[label="RB
+inverse_isa",
+		minlen=9];
+	19	[label="C3240308
+Uro-KP Pill"];
+	1 -> 19	[label="RB
+inverse_isa",
+		minlen=10];
+}

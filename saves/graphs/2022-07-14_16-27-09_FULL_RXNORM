@@ -1,0 +1,937 @@
+digraph {
+	node [colormap=greens9,
+		style=filled
+	];
+	edge [len=7.0];
+	C0689572	[label="C0689572
+METHYLPREDNISOLONE 16MG TAB ADT-PAK,14"];
+	C0689572 -> C0017710	[label="RB
+inverse_isa"];
+	C0593953	[label="C0593953
+Twinrix"];
+	C0593953 -> C0062527	[label="RB
+has_tradename"];
+	C0718535	[label="C0718535
+Anemagen"];
+	C0718535 -> C1655617	[label="RO
+has_ingredient",
+		minlen=1];
+	C0721372	[label="C0721372
+Liposyn III"];
+	C0721372 -> C4271640	[label="RO
+has_ingredient"];
+	C0721476	[label="C0721476
+M-M-R II"];
+	C0721476 -> C4033814	[label="RO
+has_ingredient"];
+	C0721838	[label="C0721838
+Multitrace-4"];
+	C0721838 -> C0078794	[label="RB
+has_tradename"];
+	C0721912	[label="C0721912
+N Ice"];
+	C0721912 -> C3466444	[label="RO
+has_ingredient",
+		minlen=1];
+	C0724434	[label="C0724434
+YF-Vax"];
+	C0724434 -> C4033799	[label="RO
+has_ingredient"];
+	C0733854	[label="C0733854
+Intralipid"];
+	C0733854 -> C0304483	[label="SY
+has_tradename"];
+	C0071208	[label="C0071208
+plasma-lyte"];
+	C0071208 -> C1814011	[label="RO
+has_ingredient"];
+	C1654827	[label="C1654827
+Apidra"];
+	C2356251	[label="C2356251
+Apidra 100unit/ml Solution for Injection"];
+	C1654827 -> C2356251	[label="RO
+has_ingredient",
+		minlen=1];
+	C2356251 -> C0047317	[label="RO
+inactive_ingredient_of",
+		minlen=1];
+	C2342285	[label="C2342285
+Flo-Pred"];
+	C2342285 -> C0071839	[label="SY
+has_tradename",
+		minlen=1];
+	C2342443	[label="C2342443
+Xyntha"];
+	C2342443 -> C2356667	[label="RO
+has_ingredient"];
+	C2355883	[label="C2355883
+metFORMIN Extended Release Oral Tablet [Glucophage]"];
+	C2355883 -> C3225327	[label="RB
+inverse_isa"];
+	C2355888	[label="C2355888
+hydrocortisone Enema [Colocort]"];
+	C2355888 -> C3221062	[label="RB
+inverse_isa"];
+	C0939061	[label="C0939061
+Colocort 1.67 MG/ML Enema"];
+	C0939061 -> C0939299	[label="RO
+ingredient_of"];
+	C2355962	[label="C2355962
+Uro-KP"];
+	C2355962 -> C3240308	[label="RO
+has_ingredient"];
+	C2355963	[label="C2355963
+dibasic potassium phosphate 250 MG / sodium phosphate, dibasic 250 MG / sodium phosphate, monobasic 49.5 MG [Uro-KP]"];
+	C2355963 -> C2355962	[label="RO
+ingredient_of",
+		minlen=1];
+	C2355964	[label="C2355964
+dibasic potassium phosphate / sodium phosphate, dibasic / sodium phosphate, monobasic Oral Tablet [Uro-KP]"];
+	C2355964 -> C3240308	[label="RB
+inverse_isa",
+		minlen=1];
+	C0714714	[label="C0714714
+Uro-KP-Neutral Caplet"];
+	C0714714 -> C3240308	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356005	[label="C2356005
+calcium ascorbate 60 MG / calcium threonate 0.8 MG / ferrous asparto glycinate 50 MG / ferrous fumarate 101 MG / folic \
+acid 1 MG / succinic acid 50 MG / vitamin B12 0.01 MG [Anemagen]"];
+	C2356005 -> C0718535	[label="RO
+ingredient_of",
+		minlen=1];
+	C2937430	[label="C2937430
+calcium ascorbate / calcium threonate / ferrous asparto glycinate / ferrous fumarate / folic acid / succinic acid / vitamin \
+B12 Oral Tablet [Anemagen]"];
+	C2937430 -> C3230152	[label="RB
+inverse_isa",
+		minlen=1];
+	C2356007	[label="C2356007
+Anemagen Forte, Vitamin B Complex with C, Folic Acid and Iron oral tablet"];
+	C2356007 -> C3230152	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356018	[label="C2356018
+Chloraseptic Sore Throat"];
+	C2356018 -> C3466443	[label="RO
+has_ingredient"];
+	C2356019	[label="C2356019
+benzocaine 6 MG / menthol 10 MG [Chloraseptic Sore Throat]"];
+	C2356019 -> C2356018	[label="RO
+ingredient_of",
+		minlen=1];
+	C2356020	[label="C2356020
+benzocaine / menthol Oral Lozenge [Chloraseptic Sore Throat]"];
+	C2356020 -> C3466443	[label="RB
+inverse_isa",
+		minlen=1];
+	C2356021	[label="C2356021
+Chloraseptic Soothing Citrus, 6 mg-10 mg mucous membrane lozenge"];
+	C2356021 -> C0872912	[label="RO
+inactive_ingredient_of"];
+	C2356029	[label="C2356029
+Durezol"];
+	C2356029 -> C0058004	[label="SY
+has_tradename",
+		minlen=1];
+	C2356031	[label="C2356031
+Ferrocite Plus"];
+	C2356031 -> C3663412	[label="RO
+has_ingredient"];
+	C2356046	[label="C2356046
+Multigen"];
+	C2356046 -> C3237685	[label="RO
+has_ingredient"];
+	C2356047	[label="C2356047
+Multigen Plus"];
+	C2356047 -> C3237687	[label="RO
+has_ingredient",
+		minlen=1];
+	C2356048	[label="C2356048
+etanercept Prefilled Syringe [Enbrel]"];
+	C2356048 -> C3503713	[label="RN
+isa"];
+	C2356049	[label="C2356049
+Enbrel 50mg/ml Solution for Injection"];
+	C2356049 -> C0037494	[label="RO
+inactive_ingredient_of"];
+	C2356057	[label="C2356057
+Remeven"];
+	C2356057 -> C3234575	[label="RO
+has_ingredient"];
+	C2356067	[label="C2356067
+Topisulf"];
+	C2356067 -> C3231920	[label="RO
+has_ingredient",
+		minlen=1];
+	C2356069	[label="C2356069
+Triple Paste AF"];
+	C2356069 -> C3238768	[label="RO
+has_ingredient",
+		minlen=1];
+	C2356070	[label="C2356070
+Vanacof"];
+	C2356070 -> C3241114	[label="RO
+has_ingredient",
+		minlen=1];
+	C2937432	[label="C2937432
+copper sulfate 0.8 MG / ferrous fumarate 324 MG / folic acid 1 MG / magnesium sulfate 6.9 MG / manganese sulfate 1.3 MG / \
+niacinamide 30 MG / pantothenic acid 10 MG / pyridoxine 5 MG / riboflavin 6 MG / sodium ascorbate 200 MG / thiamine 10 MG / vitamin \
+B12 0.015 MG / zinc sulfate 18.2 MG [Ferrocite Plus]"];
+	C2937432 -> C0986175	[label="RB
+has_tradename",
+		minlen=1];
+	C2937433	[label="C2937433
+copper sulfate / ferrous fumarate / folic acid / magnesium sulfate / manganese sulfate / niacinamide / pantothenic acid / \
+pyridoxine / riboflavin / sodium ascorbate / thiamine / vitamin B12 / zinc sulfate Oral Capsule [Ferrocite Plus]"];
+	C2937433 -> C3221876	[label="RB
+inverse_isa",
+		minlen=1];
+	C2356087	[label="C2356087
+Ferrocite Plus, Multiple Vitamins with Minerals oral capsule"];
+	C2356087 -> C3221876	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356088	[label="C2356088
+Halls"];
+	C2356088 -> C5221513	[label="RO
+has_ingredient"];
+	C2356089	[label="C2356089
+menthol 5 MG [Halls]"];
+	C2356089 -> C2356088	[label="RO
+ingredient_of",
+		minlen=1];
+	C2356090	[label="C2356090
+menthol Oral Lozenge [Halls]"];
+	C2356090 -> C5221513	[label="RN
+isa",
+		minlen=1];
+	C2356091	[label="C2356091
+Halls Mountain Menthol, mucous membrane lozenge"];
+	C2356091 -> C0038636	[label="RO
+inactive_ingredient_of"];
+	C2356095	[label="C2356095
+Neotic"];
+	C2356095 -> C3235532	[label="RO
+has_ingredient"];
+	C2356096	[label="C2356096
+antipyrine 54 MG/ML / benzocaine 10 MG/ML / zinc acetate 10 MG/ML [Neotic]"];
+	C2356096 -> C2356095	[label="RO
+ingredient_of",
+		minlen=1];
+	C2356097	[label="C2356097
+antipyrine / benzocaine / zinc acetate Otic Solution [Neotic]"];
+	C2356097 -> C3235532	[label="RB
+inverse_isa",
+		minlen=1];
+	C2356098	[label="C2356098
+Neotic 54mg/ml-10mg/ml-10mg/ml Otic Solution"];
+	C2356098 -> C3235532	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356099	[label="C2356099
+Nalex AC"];
+	C2356099 -> C2356102	[label="RO
+has_ingredient",
+		minlen=1];
+	C2356101	[label="C2356101
+brompheniramine / codeine Oral Solution [Nalex AC]"];
+	C2356101 -> C2356102	[label="RN
+isa",
+		minlen=2];
+	C2937434	[label="C2937434
+calcium ascorbate 60 MG / calcium threonate 0.8 MG / ferrous asparto glycinate 50 MG / ferrous fumarate 101 MG / folic \
+acid 1 MG / succinic acid 50 MG / vitamin B12 0.01 MG [Multigen Plus]"];
+	C2937434 -> C0986175	[label="RB
+has_tradename",
+		minlen=2];
+	C2937435	[label="C2937435
+calcium ascorbate / calcium threonate / ferrous asparto glycinate / ferrous fumarate / folic acid / succinic acid / vitamin \
+B12 Oral Tablet [Multigen Plus]"];
+	C2937435 -> C3237687	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356120	[label="C2356120
+calcium ascorbate 150 MG / calcium threonate 2 MG / ferrous asparto glycinate 70 MG / liver stomach concentrate 50 MG / \
+succinic acid 75 MG / vitamin B12 0.01 MG [Multigen]"];
+	C2356120 -> C2356046	[label="RO
+ingredient_of",
+		minlen=1];
+	C2356121	[label="C2356121
+calcium ascorbate / calcium threonate / ferrous asparto glycinate / liver stomach concentrate / succinic acid / vitamin \
+B12 Oral Tablet [Multigen]"];
+	C2356121 -> C3237685	[label="RB
+inverse_isa",
+		minlen=1];
+	C2356122	[label="C2356122
+Multigen, Vitamin B12 with C, Iron and Intrinsic Factor oral tablet"];
+	C2356122 -> C3237685	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356129	[label="C2356129
+menthol 5 MG [N'ICE]"];
+	C2356129 -> C0721912	[label="RO
+ingredient_of",
+		minlen=1];
+	C2356131	[label="C2356131
+N Ice Citrus, mucous membrane lozenge"];
+	C2356131 -> C0025368	[label="RO
+active_ingredient_of",
+		minlen=1];
+	C2356136	[label="C2356136
+urea 500 MG/ML [Remeven]"];
+	C2356136 -> C2356057	[label="RO
+ingredient_of",
+		minlen=1];
+	C2356137	[label="C2356137
+urea Topical Cream [Remeven]"];
+	C2356137 -> C3234575	[label="RB
+inverse_isa",
+		minlen=1];
+	C2356138	[label="C2356138
+Remeven 500 MG/ML Topical Cream"];
+	C2356138 -> C3234575	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356158	[label="C2356158
+sulfacetamide / sulfur Topical Cream [Topisulf]"];
+	C2356158 -> C3231920	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356161	[label="C2356161
+miconazole Topical Ointment [Triple Paste AF]"];
+	C2356161 -> C3238768	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356164	[label="C2356164
+codeine / dexchlorpheniramine / phenylephrine Oral Solution [Vanacof]"];
+	C2356164 -> C3241114	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356192	[label="C2356192
+Brondil"];
+	C2356192 -> C3221520	[label="RO
+has_ingredient"];
+	C2356193	[label="C2356193
+dyphylline 20 MG/ML / guaifenesin 20 MG/ML [Brondil]"];
+	C2356193 -> C2356192	[label="RO
+ingredient_of",
+		minlen=1];
+	C2356194	[label="C2356194
+dyphylline / guaiFENesin Oral Solution [Brondil]"];
+	C2356194 -> C3221520	[label="RB
+inverse_isa",
+		minlen=1];
+	C2356195	[label="C2356195
+Brondil (Dyphylline 20 MG/ML / Guaifenesin 20 MG/ML) Oral Solution"];
+	C2356195 -> C3221520	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356214	[label="C2356214
+Multitrace-4 Element Injectable Solution"];
+	C2356214 -> C3464971	[label="RO
+constitutes",
+		minlen=1];
+	C2356249	[label="C2356249
+insulin glulisine, human 100 UNT/ML [Apidra]"];
+	C2356249 -> C3503234	[label="RO
+consists_of"];
+	C2356250	[label="C2356250
+insulin glulisine, human Injectable Solution [Apidra]"];
+	C2356250 -> C3222730	[label="RB
+inverse_isa"];
+	C2356268	[label="C2356268
+chromic chloride / copper sulfate / manganese sulfate / zinc sulfate Injectable Solution [Multitrace-4]"];
+	C2356268 -> C2356214	[label="RN
+isa",
+		minlen=1];
+	C0712406	[label="C0712406
+Multitrace-4 Concentrate, 10.0 mcg-1 mg-0.5 mg-5 mg/mL intravenous solution"];
+	C0712406 -> C4020274	[label="RO
+constitutes"];
+	C2356282	[label="C2356282
+FLUoxetine 15 MG [Sarafem]"];
+	C2356282 -> C1692877	[label="RO
+ingredient_of"];
+	C2356283	[label="C2356283
+Sarafem 15 MG Oral Tablet"];
+	C2356283 -> C0037098	[label="RO
+inactive_ingredient_of"];
+	C2356287	[label="C2356287
+prednisolone 3 MG/ML [Flo-Pred]"];
+	C2356287 -> C2342285	[label="RO
+ingredient_of",
+		minlen=1];
+	C2356288	[label="C2356288
+prednisolone Oral Suspension [Flo-Pred]"];
+	C2356288 -> C3223908	[label="RB
+inverse_isa",
+		minlen=1];
+	C2356289	[label="C2356289
+Flo-Pred 3 MG/ML Oral Suspension"];
+	C2356289 -> C0032950	[label="RO
+active_moiety_of"];
+	C2356290	[label="C2356290
+prednisolone 1 MG/ML [Flo-Pred]"];
+	C2356290 -> C2342285	[label="RO
+ingredient_of",
+		minlen=2];
+	C2356291	[label="C2356291
+prednisolone 1 MG/ML Oral Suspension [Flo-Pred]"];
+	C2356291 -> C3223908	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356292	[label="C2356292
+acamprosate Delayed Release Oral Tablet [Campral]"];
+	C2356292 -> C3226363	[label="RB
+inverse_isa"];
+	C2356294	[label="C2356294
+phentermine hydrochloride 37.5 MG [Adipex-P]"];
+	C2356294 -> C0001520	[label="RO
+ingredient_of"];
+	C1329481	[label="C1329481
+Adipex P 37.5mg Capsule"];
+	C1329481 -> C0282304	[label="RO
+ingredient_of",
+		minlen=1];
+	C1329300	[label="C1329300
+Adipex P 37.5mg Tablet"];
+	C1329300 -> C0282304	[label="RO
+ingredient_of",
+		minlen=2];
+	C2356304	[label="C2356304
+hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML / hepatitis B surface antigen vaccine 0.02 MG/ML [Twinrix]"];
+	C2356304 -> C4033691	[label="RO
+consists_of"];
+	C1169549	[label="C1169549
+Twinrix Hepatitis A inactivated and Hepatitis B (recombinant) Vaccine 1 ML Injection"];
+	C1169549 -> C1445761	[label="RO
+ingredient_of"];
+	C2356307	[label="C2356307
+hepatitis A vaccine (inactivated) strain HM175 / hepatitis B surface antigen vaccine Prefilled Syringe [Twinrix]"];
+	C2356307 -> C3502988	[label="RN
+isa"];
+	C2344119	[label="C2344119
+Twinrix Suspension for Injection"];
+	C2344119 -> C1962509	[label="RO
+ingredient_of"];
+	C2356372	[label="C2356372
+measles virus vaccine live, Enders' attenuated Edmonston strain 2000 UNT/ML / mumps virus vaccine live, Jeryl Lynn strain \
+25000 UNT/ML / rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/ML [M-M-R II]"];
+	C2356372 -> C4033672	[label="RO
+consists_of"];
+	C0710716	[label="C0710716
+M-M-R II, subcutaneous powder for injection"];
+	C0710716 -> C0304925	[label="RO
+inactive_ingredient_of"];
+	C2356378	[label="C2356378
+yellow fever virus strain 17D-204 live antigen 4000 UNT/ML [YF-Vax]"];
+	C2356378 -> C4019051	[label="RO
+consists_of"];
+	C2356540	[label="C2356540
+Cleviprex"];
+	C2356540 -> C2981617	[label="RB
+has_tradename"];
+	C2356546	[label="C2356546
+difluprednate 0.5 MG/ML [Durezol]"];
+	C2356546 -> C2356029	[label="RO
+ingredient_of",
+		minlen=1];
+	C2356547	[label="C2356547
+difluprednate Ophthalmic Suspension [Durezol]"];
+	C2356547 -> C3223093	[label="RB
+inverse_isa",
+		minlen=1];
+	C2356548	[label="C2356548
+difluprednate 0.5 MG/ML Ophthalmic Suspension [Durezol]"];
+	C2356548 -> C3223093	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356560	[label="C2356560
+BroveX CB"];
+	C2356560 -> C2918207	[label="RO
+has_ingredient"];
+	C2356562	[label="C2356562
+brompheniramine / codeine Oral Tablet [BroveX CB]"];
+	C2356562 -> C2356568	[label="RN
+isa"];
+	C2356575	[label="C2356575
+Brovex PBC"];
+	C2356575 -> C2356583	[label="RO
+has_ingredient",
+		minlen=1];
+	C2356577	[label="C2356577
+brompheniramine / codeine / phenylephrine Oral Tablet [Brovex PBC]"];
+	C2356577 -> C2356583	[label="RN
+isa",
+		minlen=2];
+	C2356603	[label="C2356603
+Cepacol Sore Throat from Post Nasal Drip"];
+	C2356606	[label="C2356606
+Cepacol Sore Throat from Post Nasal Drip Cherry, mucous membrane lozenge"];
+	C2356603 -> C2356606	[label="RO
+has_ingredient"];
+	C2356606 -> C0025368	[label="RO
+ingredient_of"];
+	C2356604	[label="C2356604
+menthol 5.4 MG [Cepacol Sore Throat from Post Nasal Drip]"];
+	C2356604 -> C2356603	[label="RO
+ingredient_of",
+		minlen=1];
+	C2356605	[label="C2356605
+menthol Oral Lozenge [Cepacol Sore Throat from Post Nasal Drip]"];
+	C2356605 -> C3467274	[label="RB
+inverse_isa"];
+	C2356651	[label="C2356651
+Soluclenz"];
+	C2356651 -> C3238634	[label="RO
+has_ingredient"];
+	C2356652	[label="C2356652
+benzoyl peroxide 0.05 MG/MG [Soluclenz]"];
+	C2356652 -> C2356651	[label="RO
+ingredient_of",
+		minlen=1];
+	C2356653	[label="C2356653
+benzoyl peroxide Topical Gel [Soluclenz]"];
+	C2356653 -> C3238634	[label="RB
+inverse_isa",
+		minlen=1];
+	C2356654	[label="C2356654
+Soluclenz Rx 5% Topical Gel"];
+	C2356654 -> C3238634	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356674	[label="C2356674
+Zamicet"];
+	C2356674 -> C3240771	[label="RO
+has_ingredient",
+		minlen=1];
+	C2356676	[label="C2356676
+acetaminophen / hydrocodone Oral Solution [Zamicet]"];
+	C2356676 -> C3240771	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356680	[label="C2356680
+capsaicin 2.5 MG/ML [Zostrix]"];
+	C2356680 -> C0308191	[label="RO
+ingredient_of",
+		minlen=1];
+	C2356681	[label="C2356681
+Zostrix Neuropathy 0.25% Topical Cream"];
+	C2356681 -> C3240074	[label="RB
+inverse_isa"];
+	C2356700	[label="C2356700
+urea 300 MG/ML [Ureaphil]"];
+	C2356700 -> C0728794	[label="RO
+ingredient_of",
+		minlen=1];
+	C0715969	[label="C0715969
+Ureaphil 40g Powder for Injection"];
+	C0715969 -> C0728794	[label="RO
+ingredient_of",
+		minlen=2];
+	C1814215	[label="C1814215
+Roferon A Prefilled Syringe 3million unit/0.5ml Solution for Injection"];
+	C1814215 -> C0021734	[label="RO
+ingredient_of",
+		minlen=1];
+	C1614750	[label="C1614750
+Roferon A Prefilled Syringe 6million unit/0.5ml Solution for Injection"];
+	C1614750 -> C0021734	[label="RO
+ingredient_of",
+		minlen=2];
+	C1814161	[label="C1814161
+Roferon A Prefilled Syringe 9million unit/0.5ml Solution for Injection"];
+	C1814161 -> C0021734	[label="RO
+ingredient_of",
+		minlen=3];
+	C2356718	[label="C2356718
+benzoyl peroxide 0.1 MG/MG [Benzagel Wash]"];
+	C2356718 -> C0875972	[label="RO
+ingredient_of",
+		minlen=1];
+	C2356719	[label="C2356719
+benzoyl peroxide Topical Gel [Benzagel Wash]"];
+	C2356719 -> C3226256	[label="RB
+inverse_isa"];
+	C1329335	[label="C1329335
+Benzagel Wash 0.1 MG/MG Topical Gel"];
+	C1329335 -> C0875972	[label="RO
+ingredient_of",
+		minlen=2];
+	C2356724	[label="C2356724
+clindamycin Topical Lotion [Cleocin-T]"];
+	C2356724 -> C3226394	[label="RB
+inverse_isa",
+		minlen=1];
+	C0706985	[label="C0706985
+Cleocin T 1% Topical Lotion"];
+	C0706985 -> C1272924	[label="RO
+dose_form_of"];
+	C2356725	[label="C2356725
+clindamycin Topical Solution [Cleocin-T]"];
+	C2356725 -> C3226394	[label="RB
+inverse_isa",
+		minlen=2];
+	C0706987	[label="C0706987
+Cleocin T 1% Topical Solution"];
+	C0706987 -> C0008947	[label="RO
+active_moiety_of"];
+	C2356726	[label="C2356726
+clindamycin 0.01 MG/MG [Cleocin-T]"];
+	C2356726 -> C0719372	[label="RO
+ingredient_of"];
+	C2356727	[label="C2356727
+clindamycin Topical Gel [Cleocin-T]"];
+	C2356727 -> C3226394	[label="RB
+inverse_isa",
+		minlen=3];
+	C0706980	[label="C0706980
+Cleocin T 1% Topical Gel"];
+	C0706980 -> C0055881	[label="RO
+active_ingredient_of"];
+	C2356732	[label="C2356732
+caffeine 100 MG [No Doz]"];
+	C2356732 -> C0699283	[label="RO
+ingredient_of"];
+	C0711558	[label="C0711558
+No Doz, 100 mg oral tablet"];
+	C0711558 -> C3238292	[label="RB
+inverse_isa"];
+	C2356733	[label="C2356733
+Nucotuss"];
+	C2356733 -> C3232695	[label="RO
+has_ingredient",
+		minlen=1];
+	C2356735	[label="C2356735
+codeine / guaifenesin / pseudoephedrine Oral Solution [Nucotuss]"];
+	C2356735 -> C3232695	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356738	[label="C2356738
+peginterferon alfa-2b Injectable Solution [Pegintron]"];
+	C2356738 -> C3238358	[label="RB
+inverse_isa",
+		minlen=1];
+	C0939132	[label="C0939132
+PegIntron, 50 mcg subcutaneous powder for injection"];
+	C0939132 -> C0796545	[label="RO
+ingredient_of",
+		minlen=1];
+	C0939133	[label="C0939133
+PegIntron, 80 mcg subcutaneous powder for injection"];
+	C0939133 -> C0796545	[label="RO
+ingredient_of",
+		minlen=2];
+	C0939134	[label="C0939134
+Peginterferon alfa-2b 120 ug in 0.5 mL SUBCUTANEOUS INJECTION, POWDER, FOR SOLUTION [PEGINTRON]"];
+	C0939134 -> C4058433	[label="RO
+constitutes"];
+	C0939135	[label="C0939135
+PegIntron, 150 mcg subcutaneous powder for injection"];
+	C0939135 -> C0796545	[label="RO
+ingredient_of",
+		minlen=3];
+	C2356739	[label="C2356739
+peginterferon alfa-2b 0.01 MG/ML [Pegintron]"];
+	C2356739 -> C1527737	[label="RO
+ingredient_of"];
+	C1586485	[label="C1586485
+peginterferon alfa-2b 0.01 MG/ML Injectable Solution [Pegintron]"];
+	C1586485 -> C3238358	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356741	[label="C2356741
+erythromycin Topical Solution [T-Stat]"];
+	C2356741 -> C3231206	[label="RB
+inverse_isa",
+		minlen=1];
+	C0707273	[label="C0707273
+T Stat 2% Topical Solution"];
+	C0707273 -> C3231206	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356756	[label="C2356756
+mumps virus vaccine live, Jeryl Lynn strain 40000 UNT/ML / rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/\
+ML [Biavax II]"];
+	C0305465	[label="C0305465
+Biavax II"];
+	C2356756 -> C0305465	[label="RO
+ingredient_of",
+		minlen=1];
+	C0305465 -> C3227653	[label="RO
+has_ingredient"];
+	C2356757	[label="C2356757
+mumps virus vaccine live, Jeryl Lynn strain / rubella virus vaccine live (Wistar RA 27-3 strain) Injectable Solution [Biavax \
+II]"];
+	C2356757 -> C3227653	[label="RB
+inverse_isa",
+		minlen=1];
+	C0709351	[label="C0709351
+Biavax II, subcutaneous powder for injection"];
+	C0709351 -> C3227653	[label="RB
+inverse_isa",
+		minlen=2];
+	C2356759	[label="C2356759
+lidocaine Topical Lotion [LidaMantle]"];
+	C2356759 -> C3239951	[label="RB
+inverse_isa",
+		minlen=1];
+	C2356760	[label="C2356760
+lidocaine Topical Cream [LidaMantle]"];
+	C2356760 -> C3239951	[label="RB
+inverse_isa",
+		minlen=2];
+	C0692860	[label="C0692860
+Glucosamine Sulfate, 500 mg oral tablet"];
+	C0692860 -> C0993159	[label="RO
+dose_form_of",
+		minlen=1];
+	C0693919	[label="C0693919
+glucosamine sulfate 500 MG / chondroitin sulfate A 250 MG Oral Capsule"];
+	C0693919 -> C0991533	[label="RO
+dose_form_of",
+		minlen=1];
+	C1659448	[label="C1659448
+Chondroitin Sulfate 400mg, Glucosamine Sulfate 500mg Oral capsule"];
+	C1659448 -> C0991533	[label="RO
+dose_form_of",
+		minlen=2];
+	C0795010	[label="C0795010
+glucosamine sulfate 750 MG Oral Capsule"];
+	C0795010 -> C0991533	[label="RO
+dose_form_of",
+		minlen=3];
+	C0795432	[label="C0795432
+Chondroitin Sulfate/Glucosamine Sulfate 200 MG-500 MG Oral Tablet"];
+	C0795432 -> C0993159	[label="RO
+dose_form_of",
+		minlen=2];
+	C0795561	[label="C0795561
+chondroitin sulfates 200 MG / glucosamine sulfate 250 MG Oral Tablet"];
+	C0795561 -> C0993159	[label="RO
+dose_form_of",
+		minlen=3];
+	C0872476	[label="C0872476
+glucosamine HCl 200 MG / glucosamine sulfate 300 MG Oral Tablet"];
+	C0872476 -> C0993159	[label="RO
+dose_form_of",
+		minlen=4];
+	C0872855	[label="C0872855
+chondroitin sulfates 200 MG / glucosamine sulfate 500 MG Oral Capsule"];
+	C0872855 -> C0991533	[label="RO
+dose_form_of",
+		minlen=4];
+	C0873634	[label="C0873634
+Dimethyl Sulfone/Glucosamine Sulfate 500 MG-500 MG Oral Capsule [GLUCOSAMINE SULFATE-MSM]"];
+	C0873634 -> C0991533	[label="RO
+dose_form_of",
+		minlen=5];
+	C1177744	[label="C1177744
+Glucosamine Sulfate 1000 MG Oral Capsule"];
+	C1177744 -> C0991533	[label="RO
+dose_form_of",
+		minlen=6];
+	C1340689	[label="C1340689
+glucosamine sulfate 250 MG Oral Capsule"];
+	C1340689 -> C0991533	[label="RO
+dose_form_of",
+		minlen=7];
+	C1357011	[label="C1357011
+glucosamine sulfate 250 MG Oral Tablet"];
+	C1357011 -> C0993159	[label="RO
+dose_form_of",
+		minlen=5];
+	C1509578	[label="C1509578
+glucosamine sulfate 750 MG / chondroitin sulfate A sodium 600 MG Oral Tablet"];
+	C1509578 -> C0993159	[label="RO
+dose_form_of",
+		minlen=6];
+	C1876515	[label="C1876515
+glucosamine sulfate 500 MG / methylsulfonylmethane 500 MG Oral Tablet"];
+	C1876515 -> C0993159	[label="RO
+dose_form_of",
+		minlen=7];
+	C1949487	[label="C1949487
+glucosamine sulfate 250 MG / methylsulfonylmethane 250 MG Oral Capsule"];
+	C1949487 -> C0991533	[label="RO
+dose_form_of",
+		minlen=8];
+	C1964289	[label="C1964289
+glucosamine sulfate 500 MG / methylsulfonylmethane 400 MG Oral Capsule"];
+	C1964289 -> C1965203	[label="RO
+constitutes"];
+	C0694264	[label="C0694264
+diphtheria toxoid vaccine 6.6 UNT / tetanus toxoid vaccine 5 UNT per 0.5 ML Injectable Suspension"];
+	C0694264 -> C1648675	[label="RO
+ingredient_of"];
+	C1344314	[label="C1344314
+dalteparin 55.2 MG/ML Injectable Solution"];
+	C1344314 -> C3206353	[label="RB
+inverse_isa"];
+	C2355956	[label="C2355956
+tipranavir 100 mg/mL oral solution"];
+	C2355956 -> C5229421	[label="RO
+role_played_by"];
+	C2355961	[label="C2355961
+Dibasic Pot phosphate 250 MG / Sodium Phosphate, Dibasic 250 MG / Sodium Phosphate, Monobasic 49.5 MG Oral Tablet"];
+	C2355961 -> C3210318	[label="RB
+inverse_isa"];
+	C2356004	[label="C2356004
+iron fum,ag/ascorb.calcium/B12/folic acid/calcium/succ.acid@151 mg-60 mg-10 mcg-1 mg-0.8 mg-50 mg@ORAL@TABLET"];
+	C2356004 -> C0039225	[label="RO
+dose_form_of",
+		minlen=1];
+	C2316542	[label="C2316542
+amoxicillin 775 mg oral tablet, extended release"];
+	C2316542 -> C0360350	[label="PAR
+inverse_isa"];
+	C2356084	[label="C2356084
+Copper Sulfate/Cyanocobalamin/Ferrous Fumarate/Folic Acid/Magnesium Sulfate/Manganese Sulfate/Niacinamide/Pantothenic Acid/\
+Pyridoxine/Riboflavin/Sodium Ascorbate/Thiamine Mononitrate/Zinc 0.8 MG-15 MCG-324 MG-1 MG-6.9 MG-1.3 MG-30 MG-10 MG-5 MG-6 MG-200 \
+MG-10 MG-18.2 MG Oral Capsule"];
+	C2356084 -> C3209959	[label="RB
+inverse_isa"];
+	C2356094	[label="C2356094
+antipyrine/benzocaine/zinc acetate otic 54 mg-10 mg-10 mg/mL otic solution"];
+	C2356094 -> C0991568	[label="RO
+dose_form_of",
+		minlen=1];
+	C2356109	[label="C2356109
+Multigen Plus, Vitamin B Complex with C, Folic Acid and Iron oral tablet"];
+	C2356109 -> C3237687	[label="RB
+inverse_isa",
+		minlen=3];
+	C2356110	[label="C2356110
+candesartan-hydrochlorothiazide 32 mg-25 mg oral tablet"];
+	C2356110 -> C4281713	[label="RO
+inactive_ingredient_of"];
+	C2356119	[label="C2356119
+iron/vit C/vit B12/calcium threon/succinic acid/stomach conc 70 mg-150 mg-10 mcg-2 mg-75 mg-50 mg ORAL TABLET"];
+	C2356119 -> C0039225	[label="RO
+dose_form_of",
+		minlen=2];
+	C2356187	[label="C2356187
+benzoyl peroxide 57.5 MG/ML Topical Lotion"];
+	C2356187 -> C3207484	[label="RB
+inverse_isa"];
+	C2356210	[label="C2356210
+chromic chloride 0.0205 MG/ML / Copper Sulfate 1.57 MG/ML / manganese sulfate 0.308 MG/ML / ZnSO4 4.39 MG/ML Injectable \
+Solution"];
+	C2356210 -> C1337514	[label="RO
+dose_form_of"];
+	C2356281	[label="C2356281
+FLUoxetine 15 MG Oral Tablet"];
+	C2356281 -> C0039225	[label="RO
+dose_form_of",
+		minlen=3];
+	C2362843	[label="C2362843
+Phentermine Hydrochloride 37.5mg Oral capsule"];
+	C2362843 -> C0991533	[label="RO
+dose_form_of",
+		minlen=9];
+	C2356295	[label="C2356295
+Phentermine Hydrochloride 37.5mg Oral tablet"];
+	C2356295 -> C0993159	[label="RO
+dose_form_of",
+		minlen=8];
+	C2355842	[label="C2355842
+HEPATITIS A&B (720/20) VACCINE 1ML SYR"];
+	C2355842 -> C0042210	[label="RB
+inverse_isa"];
+	C2317356	[label="C2317356
+desvenlafaxine 100 MG (desvenlafaxine succinate 152 MG) Oral Tablet"];
+	C2317356 -> C1880288	[label="PAR
+inverse_isa",
+		minlen=1];
+	C2316847	[label="C2316847
+desvenlafaxine 50 MG (desvenlafaxine hydrochloride 76 MG) Oral Tablet"];
+	C2316847 -> C1880288	[label="PAR
+inverse_isa",
+		minlen=2];
+	C2356355	[label="C2356355
+Maxichlor DM 20mg-4mg Tablet"];
+	C2356355 -> C2940662	[label="RO
+constitutes"];
+	C2356356	[label="C2356356
+Vitamin D 2000 IU Oral Capsule, Liquid Filled"];
+	C2356356 -> C2356356	[label="SY
+has_print_name"];
+	C2356359	[label="C2356359
+Dimethicone 2% Topical application Pad"];
+	C2356359 -> C0879140	[label="RO
+dose_form_of"];
+	C2356361	[label="C2356361
+acetaminophen/phenyltoloxamine citrate@160 mg-5 mg/5 mL@ORAL@LIQUID (ML)"];
+	C2356361 -> C5207868	[label="RO
+constitutes"];
+	C2316992	[label="C2316992
+epoetin beta-methoxy polyethylene glycol 75 mcg/0.3 mL injectable solution"];
+	C2316992 -> C1328071	[label="PAR
+inverse_isa"];
+	C2356389	[label="C2356389
+carboxymethylcellulos/glycerin 1 %-0.25 % OPHTHALMIC DROPS"];
+	C2356389 -> C0991568	[label="RO
+dose_form_of",
+		minlen=2];
+	C2356519	[label="C2356519
+hydrocortisone 1 % / ketoconazole 2 % Topical Gel"];
+	C2356519 -> C2955445	[label="RO
+dose_form_of"];
+	C2356535	[label="C2356535
+menthol 5 % / methyl salicylate 14 % Topical Solution"];
+	C2356535 -> C1337585	[label="RO
+dose_form_of"];
+	C2356545	[label="C2356545
+difluprednate ophthalmic 0.05% ophthalmic emulsion"];
+	C2356545 -> C5191972	[label="PAR
+inverse_isa"];
+	C0973862	[label="C0973862
+ALOH/MGOH/SIMTH XTRA STRENGTH LIQ"];
+	C0973862 -> C1874245	[label="RB
+inverse_isa"];
+	C2356595	[label="C2356595
+Calcium/Cholecalciferol/Magnesium 250 MG-125 IU-40 MG Oral Tablet, Chewable"];
+	C2356595 -> C0304290	[label="RO
+dose_form_of"];
+	C2356598	[label="C2356598
+cholecalciferol 1000 UNT / menaquinone 7 90 MCG Disintegrating Oral Tablet"];
+	C2356598 -> C0991504	[label="RO
+dose_form_of"];
+	C2356679	[label="C2356679
+Zostrix-HP, 0.075% topical cream"];
+	C2356679 -> C0725616	[label="RO
+inactive_ingredient_of"];
+	C2317202	[label="C2317202
+Urea 40g powder for injection solution 200mL bottle"];
+	C2317202 -> C0544418	[label="PAR
+inverse_isa"];
+	C1443577	[label="C1443577
+Sterile talc powder 5g/100mL vial (product)"];
+	C1443577 -> C1298331	[label="PAR
+inverse_isa"];
+	C1876823	[label="C1876823
+Poly Tan D, 4 mg-25 mg-3.5 mg/5 mL oral suspension, extended release"];
+	C1876823 -> C0724660	[label="RO
+ingredient_of"];
+	C2356755	[label="C2356755
+mumps virus vaccine live, Jeryl Lynn strain 40000 UNT/ML / rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/\
+ML Injectable Solution"];
+	C2356755 -> C3210813	[label="RB
+inverse_isa"];
+	C1123025	[label="C1123025
+Methylprednisolone 16mg tablet"];
+	C1123025 -> C0025815	[label="RO
+ingredient_of"];
+	C1236087	[label="C1236087
+capsaicin Topical Cream [Zostrix]"];
+	C1236087 -> C0308191	[label="RO
+ingredient_of",
+		minlen=2];
+	C1236837	[label="C1236837
+urea Injectable Solution [Ureaphil]"];
+	C1236837 -> C0728794	[label="RO
+ingredient_of",
+		minlen=3];
+}

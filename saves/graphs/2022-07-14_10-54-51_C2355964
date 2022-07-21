@@ -1,0 +1,37 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	0	[label="C2355964
+dibasic potassium phosphate / sodium phosphate, dibasic / sodium phosphate, monobasic Oral Tablet [Uro-KP]"];
+	00	[label="C2355960
+dibasic potassium phosphate / sodium phosphate, dibasic / sodium phosphate, monobasic Oral Tablet"];
+	0 -> 00	[label="RB
+has_tradename",
+		minlen=1];
+	01	[label="C0714714
+Uro-KP-Neutral Caplet"];
+	0 -> 01	[label="RN
+isa",
+		minlen=2];
+	02	[label="C0993159
+Oral Tablet"];
+	0 -> 02	[label="RO
+dose_form_of",
+		minlen=3];
+	03	[label="C2355962
+Uro-KP"];
+	0 -> 03	[label="RO
+ingredient_of",
+		minlen=4];
+	04	[label="C3240307
+Uro-KP Oral Product"];
+	0 -> 04	[label="RB
+inverse_isa",
+		minlen=5];
+	05	[label="C3240308
+Uro-KP Pill"];
+	0 -> 05	[label="RB
+inverse_isa",
+		minlen=6];
+}

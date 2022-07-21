@@ -1,0 +1,53 @@
+digraph {
+	node [colorscheme=gnbu9,
+		style=filled
+	];
+	2	[label="C2356005
+calcium ascorbate 60 MG / calcium threonate 0.8 MG / ferrous asparto glycinate 50 MG / ferrous fumarate 101 MG / folic \
+acid 1 MG / succinic acid 50 MG / vitamin B12 0.01 MG [Anemagen]"];
+	20	[label="C0985208
+vitamin B12 0.01 MG"];
+	2 -> 20	[label="RB
+has_tradename",
+		minlen=1];
+	21	[label="C0986175
+folic acid 1 MG"];
+	2 -> 21	[label="RB
+has_tradename",
+		minlen=2];
+	22	[label="C2355998
+calcium ascorbate 60 MG"];
+	2 -> 22	[label="RB
+has_tradename",
+		minlen=3];
+	23	[label="C2355999
+calcium threonate 0.8 MG"];
+	2 -> 23	[label="RB
+has_tradename",
+		minlen=4];
+	24	[label="C2356000
+ferrous asparto glycinate 50 MG"];
+	2 -> 24	[label="RB
+has_tradename",
+		minlen=5];
+	25	[label="C2356001
+ferrous fumarate 101 MG"];
+	2 -> 25	[label="RB
+has_tradename",
+		minlen=6];
+	26	[label="C2356002
+succinic acid 50 MG"];
+	2 -> 26	[label="RB
+has_tradename",
+		minlen=7];
+	27	[label="C2356007
+Anemagen Forte, Vitamin B Complex with C, Folic Acid and Iron oral tablet"];
+	2 -> 27	[label="RO
+consists_of",
+		minlen=8];
+	28	[label="C0718535
+Anemagen"];
+	2 -> 28	[label="RO
+ingredient_of",
+		minlen=9];
+}
