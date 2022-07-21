@@ -7,7 +7,7 @@ from .disconnect import disconnect
 import graphviz
 from datetime import datetime
 
-def visualize(CUIs=[]):
+def visualize_cuis(CUIs=[]):
     print("> Starting the visualization process")
     if len(CUIs) == 0:
         print("> - Nothing to graph.")
@@ -28,11 +28,11 @@ def visualize(CUIs=[]):
 
     for i in range(len(relations_results)):
         print(f"> Creating graph {i+1}...")
-        gra = graphviz.Digraph(format="png", node_attr={"colorscheme" : "gnbu9", "style" : "filled"})
+        gra = graphviz.Digraph(format="png", node_attr={"color" : "blue", "style" : "filled"})
         gra.node(str(i), str(relations_results[i][0][0])+'\n'+str(strings_dic[relations_results[i][0][0]])[:stop_letters])
         for j in range(len(relations_results[i])):
-            gra.node(f"{i}{j}", str(relations_results[i][j][2])+'\n'+str(strings_dic[relations_results[i][j][2]])[:stop_letters])
-            gra.edge(str(i), f"{i}{j}", label=str(relations_results[i][j][1]))
+            gra.node(f"{i}{j}", str(relations_results[i][j][3])+'\n'+str(strings_dic[relations_results[i][j][3]])[:stop_letters])
+            gra.edge(str(i), f"{i}{j}", label=str(relations_results[i][j][1])+"\n"+str(relations_results[i][j][2]))
         gra = gra.unflatten(stagger=10)
         gra.render(image_save_path + f'{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}_{relations_results[i][0][0]}')
 
@@ -40,4 +40,4 @@ def visualize(CUIs=[]):
     disconnect(connection)
 
 if __name__ == "__main__":
-    print("Running send_queries module of RXNormVisualize package.")
+    print("> Running visualize_cuis module of RXNormVisualize package.")

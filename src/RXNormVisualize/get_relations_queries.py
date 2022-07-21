@@ -1,6 +1,6 @@
 def get_relations_queries(CUIS=[]):
     queries = []
-    relation_query = 'SELECT CUI1, RELA, CUI2 FROM MRREL WHERE RELA != "" AND CUI1 = "[REPLACE]"'
+    relation_query = 'SELECT CUI1, REL, RELA, CUI2 FROM MRREL WHERE RELA != "" AND CUI1 = "[REPLACE]"'
     for cui in CUIS:
         queries.append( relation_query.replace("[REPLACE]", cui) )
     return queries

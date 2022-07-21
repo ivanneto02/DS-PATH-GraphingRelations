@@ -18,8 +18,8 @@ def get_strings_dic(results=[], connection=None):
             CUIs.append(result[0][0])
         # Check if other CUIs are not in the CUIs
         for row in result:
-            if row[2] not in CUIs:
-                CUIs.append(row[2])
+            if row[3] not in CUIs:
+                CUIs.append(row[3])
 
     replace_string = f"{CUIs}".replace("[", "(").replace("]", ")")
     strings_query = strings_query.replace("[REPLACE]", replace_string)

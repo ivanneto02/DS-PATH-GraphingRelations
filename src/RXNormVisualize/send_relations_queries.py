@@ -4,18 +4,19 @@ def send_relations_queries(queries=[], connection=None):
         return []
     
     results = []
-    print(f"Total queries: {len(queries)}")
+    print(f"> Total queries: {len(queries)}")
+    print(f"> Sending queries (this may take several minutes)")
     for i in range(len(queries)):
         cursor = connection.cursor()
-        print(f"> - Sending query {i+1}...")
         try:
             # Execute the query
             cursor.execute(queries[i])
             # Add the result into the results list
             results.append(cursor.fetchall())
-            print(f"> - Success!")
         except:
             print("> - Failure! Something went wrong.")
+            print(f"> query {i}, {queries[i]}")
+            return list()
         cursor.close()
 
     return results
