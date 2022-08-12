@@ -39,15 +39,16 @@ def visualize_rxnorm():
     nodes = []
     edges = []
     grap = graphviz.Digraph(
-        engine="neato",
-        edge_attr={"len" : "7.0"},
-        graph_attr={"overlap" : "false"},
-        format="svg",
-        node_attr={"colormap" : "greens9", "style" : "filled"}
+        engine="dot",
+        graph_attr={"overlap" : "false", "ranksep" : "80"},
+        node_attr={"color" : "chartreuse", "style" : "filled"},
+        edge_attr={"len" : "10.0"},
+        format="svg"
     )
 
     # for every single row in this query
     for i in range(len(relations_results)):
+        # relations_results[i] = relations_results[i][:3]
         for j in range(len(relations_results[i])):
             key = relations_results[i][j][0]
             value = relations_results[i][j][3]
